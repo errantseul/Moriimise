@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moriimise</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --pink:#f6a8c4;
+    --pink-deep:#e87ba6;
+    --pink-soft:#fde3ec;
+    --green:#b7d495;
+    --green-deep:#8fb56a;
+    --green-soft:#e7f2d5;
+    --blue:#cfe6c4;
+    --blue-soft:#eef6e4;
+    --cream:#fff8f4;
+    --mauve:#a06b86;
+    --ink:#7c5c6e;
+    --strawberry:#e2563f;
+    --card:#ffffff;
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0;}
+
+  body{
+    font-family:'Quicksand',sans-serif;
+    color:var(--ink);
+    background:
+      repeating-linear-gradient(90deg,rgba(216, 255, 216, 0.35) 0 18px,transparent 18px 36px),
+      repeating-linear-gradient(90deg,#f3e2ea 0 18px,#fbeef4 18px 36px),
+      linear-gradient(135deg,var(--pink-soft),var(--green-soft));
+    display:flex;
+    justify-content:center;
+    padding:14px;
+    min-height:100vh;
+  }
+
+  .frame{
+    width:100%;
+    max-width:720px;
+    background:var(--pink);
+    border-radius:34px;
+    padding:10px;
+    box-shadow:0 10px 40px rgba(232,143,178,.35);
+  }
+
+  .inner{
+    background:var(--cream);
+    border-radius:26px;
+    overflow:hidden;
+  }
+
+  /* ---------- HEADER / HERO ---------- */
+  .hero{
+    padding:0;
+    text-align:center;
+    position:relative;
+    border-bottom:3px dotted var(--pink-deep);
+    background:var(--pink-soft);
+  }
+  .hero img.banner{
+    display:block;
+    width:100%;
+    height:auto;
+    margin-top: -20px;
+    border-top-left-radius:22px;
+    border-top-right-radius:22px;
+  }
+  .hero .fallback{
+    padding:30px 24px 24px;
+    background:
+      repeating-linear-gradient(115deg,rgba(255,255,255,.5) 0 2px,transparent 2px 16px),
+      linear-gradient(180deg,var(--blue-soft),var(--pink-soft));
+  }
+  .title{
+    font-family:'Parisienne',cursive;
+    font-size:clamp(44px,10vw,72px);
+    color:var(--pink-deep);
+    line-height:1;
+    text-shadow:1px 2px 0 #fff, 2px 4px 4px rgba(232,143,178,.3);
+  }
+  .subtitle{
+    margin-top:8px;
+    font-size:clamp(12px,3.4vw,15px);
+    color:var(--mauve);
+    letter-spacing:.5px;
+    font-weight:500;
+    font-style:italic;
+  }
+
+  /* ---------- NAV ---------- */
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    justify-content:center;
+    padding:18px 16px;
+    background:linear-gradient(180deg,var(--blue-soft),#fff);
+  }
+
+  nav button{
+    font-family:'Quicksand',sans-serif;
+    font-weight:600;
+    font-size:clamp(12px,3.2vw,15px);
+    color:var(--mauve);
+    background:#fff;
+    border:2px solid var(--pink);
+    border-radius:30px;
+    padding:9px 16px;
+    cursor:pointer;
+    display:flex;align-items:center;gap:7px;
+    transition:.2s;
+    box-shadow:0 3px 8px rgba(247,184,208,.4);
+  }
+  nav button:hover{background:var(--pink-soft);transform:translateY(-2px);}
+  nav button.active{background:var(--pink);color:#fff;border-color:var(--pink-deep);}
+  nav button:focus-visible{outline:3px solid var(--green-deep);outline-offset:2px;}
+  nav .ico{font-size:15px;}
+
+  /* ---------- LAYOUT ---------- */
+  .content{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:18px;
+    padding:22px 20px;
+  }
+  @media(min-width:620px){
+    .content{grid-template-columns:1fr 1.15fr;}
+    .content.single{grid-template-columns:1fr;}
+  }
+
+  /* ---------- SIDEBAR ---------- */
+  .sidebar{
+    border:2px dashed var(--pink);
+    border-radius:20px;
+    padding:18px 14px;
+    background:linear-gradient(180deg,#fff,var(--pink-soft));
+    text-align:center;
+  }
+  .side-title{
+    font-family:'Parisienne',cursive;
+    font-size:34px;color:var(--mauve);
+    margin-bottom:4px;
+  }
+  .hearts{color:var(--pink-deep);letter-spacing:4px;font-size:13px;margin-bottom:12px;}
+
+  .linkcard{
+    display:flex;align-items:center;justify-content:center;gap:8px;
+    font-family:'Parisienne',cursive;
+    font-size:26px;
+    color:var(--mauve);
+    text-decoration:none;
+    background:
+      radial-gradient(circle,rgba(255,255,255,.9) 2px,transparent 2px) 0 0/12px 12px,
+      var(--pink);
+    border:3px solid #fff;
+    border-radius:16px;
+    padding:12px 8px;
+    margin-bottom:12px;
+    box-shadow:0 4px 10px rgba(232,143,178,.35);
+    transition:.2s;
+  }
+  .linkcard:hover{transform:scale(1.03) rotate(-1deg);}
+  .linkcard.wa{
+    background:
+      radial-gradient(circle,rgba(255,255,255,.9) 2px,transparent 2px) 0 0/12px 12px,
+      var(--green);
+  }
+  .linkcard span.emo{font-size:22px;}
+
+  .foot-emoji{font-size:44px;margin-top:6px;}
+
+  /* ---------- MAIN PANEL ---------- */
+  .panel{
+    border:2px dashed var(--blue);
+    border-radius:20px;
+    padding:20px 18px;
+    background:linear-gradient(180deg,#fff,var(--blue-soft));
+  }
+  .panel h2{
+    font-family:'Parisienne',cursive;
+    font-size:34px;
+    color:#8fb8cf;
+    margin-bottom:12px;
+    display:flex;align-items:center;gap:8px;
+  }
+  .panel p{font-size:14px;line-height:1.75;margin-bottom:12px;color:var(--ink);}
+  .divider{color:var(--pink-deep);text-align:center;letter-spacing:5px;font-size:12px;margin:14px 0;}
+
+  .price-item{
+    display:flex;justify-content:space-between;align-items:center;
+    background:#fff;border:2px solid var(--pink-soft);
+    border-radius:14px;padding:11px 14px;margin-bottom:10px;font-size:14px;
+  }
+  .price-item b{color:var(--mauve);}
+  .price-item .amt{color:var(--pink-deep);font-weight:700;white-space:nowrap;}
+
+  /* grouped pricelist */
+  .cat{
+    border:2px solid var(--pink-soft);
+    border-radius:16px;
+    margin-bottom:12px;
+    overflow:hidden;
+    background:#fff;
+  }
+  .cat>summary{
+    list-style:none;cursor:pointer;
+    padding:12px 16px;
+    font-weight:700;font-size:15px;color:var(--mauve);
+    background:linear-gradient(180deg,#fff,var(--pink-soft));
+    display:flex;align-items:center;gap:8px;
+    user-select:none;
+  }
+  .cat>summary::-webkit-details-marker{display:none;}
+  .cat>summary .arrow{margin-left:auto;transition:.2s;color:var(--pink-deep);}
+  .cat[open]>summary .arrow{transform:rotate(90deg);}
+  .cat>summary:focus-visible{outline:3px solid var(--green-deep);outline-offset:-3px;}
+  .subcat{
+    font-weight:700;font-size:13px;color:#8fb8cf;
+    padding:10px 16px 4px;
+    display:flex;align-items:center;gap:6px;
+  }
+  .taglist{
+    display:flex;flex-wrap:wrap;gap:7px;
+    padding:8px 16px 14px;
+  }
+  .taglist span{
+    background:var(--pink-soft);
+    border:1.5px solid var(--pink);
+    color:var(--mauve);
+    border-radius:20px;
+    padding:5px 12px;
+    font-size:13px;font-weight:600;
+  }
+  .taglist.green span{background:var(--green-soft);border-color:var(--green-deep);}
+  .taglist.blue span{background:var(--blue-soft);border-color:var(--blue);}
+
+  /* clickable subcategory chips */
+  .taglist span{cursor:pointer;transition:.15s;}
+  .taglist span:hover{transform:translateY(-2px);box-shadow:0 3px 7px rgba(232,143,178,.35);}
+  .taglist span:focus-visible{outline:3px solid var(--green-deep);outline-offset:2px;}
+
+  /* detail page */
+  .backbtn{
+    display:inline-flex;align-items:center;gap:6px;
+    background:#fff;border:2px solid var(--pink);
+    color:var(--mauve);font-weight:600;font-size:14px;
+    border-radius:24px;padding:8px 16px;margin-bottom:16px;
+    cursor:pointer;font-family:'Quicksand',sans-serif;
+    box-shadow:0 3px 7px rgba(247,184,208,.4);transition:.2s;
+  }
+  .backbtn:hover{background:var(--pink-soft);transform:translateX(-3px);}
+  .backbtn:focus-visible{outline:3px solid var(--green-deep);outline-offset:2px;}
+
+  .pcard{
+    background:#fff;
+    border:2px solid var(--pink-soft);
+    border-radius:18px;
+    padding:14px 16px;
+    margin-bottom:14px;
+    box-shadow:0 3px 10px rgba(232,143,178,.15);
+  }
+  .pcard h3{
+    font-family:'Parisienne',cursive;
+    font-size:26px;color:var(--pink-deep);
+    margin-bottom:4px;line-height:1.1;
+  }
+  .pcard .note-tag{
+    display:inline-block;font-size:11px;font-weight:600;
+    color:var(--mauve);background:var(--green-soft);
+    border-radius:12px;padding:2px 9px;margin-bottom:8px;
+  }
+  .prow{
+    display:flex;justify-content:space-between;align-items:baseline;
+    gap:10px;padding:7px 0;border-bottom:1px dashed var(--pink-soft);
+    font-size:14px;
+  }
+  .prow:last-child{border-bottom:none;}
+  .prow .lbl{color:var(--ink);}
+  .prow .price{color:var(--pink-deep);font-weight:700;white-space:nowrap;}
+  .pnotes{
+    font-size:12.5px;line-height:1.7;color:var(--mauve);
+    background:var(--blue-soft);border-radius:12px;
+    padding:10px 14px;margin-top:8px;
+  }
+  .pnotes b{color:var(--pink-deep);}
+
+  .tnc-list{list-style:none;font-size:14px;line-height:1.7;}
+  .tnc-list li{
+    padding:9px 0 9px 26px;position:relative;
+    border-bottom:1px dashed var(--pink-soft);
+  }
+  .tnc-list li:before{content:"🍓";position:absolute;left:0;top:8px;font-size:13px;}
+  .tnc-list li:last-child{border-bottom:none;}
+
+
+  .emoji-icon{
+  height:1.15em;
+  width:1.15em;
+  object-fit:contain;
+  vertical-align:-0.2em;
+  display:inline-block;
+}
+  /* ---------- FOOTER ---------- */
+  footer{
+    background:linear-gradient(180deg,var(--green-soft),var(--green));
+    padding:18px 20px;
+    display:flex;align-items:center;gap:12px;
+    border-top:3px dotted var(--green-deep);
+    flex-wrap:wrap;
+  }
+  .fbtns{display:flex;gap:8px;}
+  .fbtns a{
+    width:40px;height:40px;border-radius:50%;
+    background:#fff;border:2px solid var(--green-deep);
+    display:flex;align-items:center;justify-content:center;
+    font-size:16px;text-decoration:none;color:var(--mauve);
+    box-shadow:0 3px 6px rgba(169,196,124,.4);transition:.2s;
+  }
+  .fbtns a:hover{transform:translateY(-2px);background:var(--green-soft);}
+  .url{
+    flex:1;min-width:180px;
+    background:#fff;border:2px solid var(--pink);
+    border-radius:24px;padding:11px 18px;
+    color:var(--mauve);font-size:13px;text-align:center;
+    letter-spacing:1px;
+  }
+
+  @keyframes fade{from{opacity:0;transform:translateY(6px);}to{opacity:1;transform:none;}}
+  .content{animation:fade .35s ease;}
+  @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}
+</style>
+</head>
+<body>
+  <div class="frame">
+    <div class="inner">
+sss
+      <header class="hero">
+        <img class="banner" src="header.jpeg" alt="Moriimise"
+             onerror="this.style.display='none';document.getElementById('hdrFallback').style.display='block';">
+        <div class="fallback" id="hdrFallback" style="display:none;">
+
+        </div>
+      </header>
+
+      <nav>
+        <button data-tab="home" class="active"><span class="ico">🏠</span>home</button>
+        <button data-tab="about"><span class="ico">🍎</span>about morii</button>
+        <button data-tab="price"><span class="ico">🧸</span>pricelist</button>
+        <button data-tab="tnc"><span class="ico">🍃</span>tnc</button>
+      </nav>
+
+      <!-- SIDEBAR is shown on every tab -->
+      <div id="app"></div>
+
+      <footer>
+        <div class="fbtns">
+          <a href="#" title="help">?</a>
+          <a href="#" title="chat">💬</a>
+          <a href="#" title="paw">🐾</a>
+        </div>
+        <div class="url">https://Moriimise</div>
+      </footer>
+
+    </div>
+  </div>
+
+<script>
+  // ---- edit your links here ----
+  const DISCORD_URL = "https://discord.gg/eCrnnNS2KA";
+  const WHATSAPP_URL = "https://wa.me/6283152855226";
+
+  const sidebar = `
+    <div class="sidebar">
+      <div class="side-title">Links</div>
+      <div class="hearts">♡ ♡ ♡</div>
+      <a class="linkcard" href="${DISCORD_URL}" target="_blank" rel="noopener">
+        <span class="emo">🥐</span> Discord
+      </a>
+      <a class="linkcard wa" href="${WHATSAPP_URL}" target="_blank" rel="noopener">
+        <span class="emo">🌿</span> WhatsApp
+      </a>
+      <div class="foot-emoji">🧺</div>
+    </div>`;
+
+  const tabs = {
+    home: `
+      <div class="panel">
+        <h2>🌼 Welcome!</h2>
+        <p>ノ﹒🐈 Hai, selamat datang di kedai Morii ..  ۫  + Morii siap membantu semua keperluan kamu  ᭺  ׅ  ࣪  📋 mulai dari epprim, education needs, game needs, sampai socneeds! %1001 trusted ☘️ 
+
+        <div class="divider">♡ ♡ ♡ ♡ ♡</div>
+        <p>Sebelum order, kindly baca tnc dan cek harga terlebih dahulu supaya transaksi -nya gak ada masalah (∩^o^)⊃━☆.</p>
+        <p style="text-align:center;font-family:'Parisienne',cursive;font-size:26px;color:#8fb8cf;">handle with love &amp; care ♡</p>
+      </div>`,
+
+    about: `
+      <div class="panel">
+        <p>⢠⣯⢬⣷⡀⠀⠀⣴⡯⢌⣧ ᨓ ᨓ ᨓ ᨓ ᨓ ᨓ ᨓ 
+       <br>⠸⣿⠀⠹⣷⠀⢸⡝⠀⢸⡿ ⊹ OPEN HOURS :: 👛
+        <br> ⠻⣧⣀⣿⣦⣼⡁⣠⣿⠃🐾 8 pagi — bobo 🛌</p>
+
+ꔫ   𓈒  📂 tiny note’s :: 🍡🪿
+<p>ര . tidak melayani rush order/rude buyer
+<br>ര . jangan spam/call || harap bersabar
+<br>ര . dont expect stability from black market
+
+<br>🧦 ᆺ 𝐻appy shopping, cutie ?! 🐾  𓈒  ֹ ੭
+
+        <div class="divider">♡ ♡ ♡</div>
+        kalau ada pertanyaan feel free to ask morii yap
+      </div>`,
+
+    tnc: `
+      <div class="panel">
+        <h2>🍃 Terms &amp; Conditions</h2>
+        <ul class="tnc-list">
+          <li>Ini black market, membeli berarti sudah memahami dan siap menerima resiko.</li>
+          <li>Netflix &amp; Disney wajib mengisi form dengan jelas dan lengkap.</li>
+          <li>Garansi hanya ketika backfree dan proses login (tidak termasuk incor oleh sistem) dengan proses maksimal 7 hari, jika lebih dari itu boleh rechat seller.</li>
+          <li>Jika sudah order harap bersabar, proses dikerjakan sesuai antrian.</li>
+          <li>Wajib baca tnc setelah orderan didrop ‼️</li>
+          <li>No refund!</li>
+        </ul>
+        <div class="divider">♡ ♡ ♡</div>
+        <p style="text-align:center;">with love, moriimise</p>
+      </div>`
+  };
+
+  /* ============================================================
+     PRICELIST DATA — edit prices here.
+     Each subcategory has a list of app cards.
+     Each card: { name, badge?, rows:[{lbl, price}], notes? }
+     ============================================================ */
+  const priceData = {
+    "app-premium": {
+      title:"📦 App Premium",
+      subs:{
+        "streaming":{ title:"📽️ Streaming App", color:"", apps:[
+          {
+            name:"Netflix",
+            rows:[
+              {lbl:"1P1U — 1 Hari", price:"5k"},
+              {lbl:"1P1U — 3 Hari", price:"8k"},
+              {lbl:"1P1U — 5 Hari", price:"12k"},
+              {lbl:"1P1U — 7 Hari", price:"14k"},
+              {lbl:"1P1U — 14 Hari", price:"26k"},
+              {lbl:"1P1U — 1 Bulan", price:"40k"},
+              {lbl:"1P2U — 7 Hari", price:"12k"},
+              {lbl:"1P2U — 1 Bulan", price:"25k"},
+              {lbl:"Anti Limit — 1 Hari", price:"8k"},
+              {lbl:"Anti Limit — 3 Hari", price:"12k"},
+              {lbl:"Anti Limit — 7 Hari", price:"16k"},
+              {lbl:"Anti Limit — 1 Bulan", price:"50k"},
+              {lbl:"Semipriv — 1 Bulan", price:"45k"},
+              {lbl:"Private — 7 Hari", price:"75k"},
+              {lbl:"Private — 1 Bulan", price:"175k"}
+            ],
+            notes:"📝 <b>Keterangan:</b><ul><li>1P1U = 1 profil 1 user</li><li>1P2U = 1 profil 2 user</li><li>Anti Limit = bebas limit device</li><li>Semipriv = semi private</li><li>Private = full akun sendiri</li></ul>"
+          },
+          {
+            name:"Disney+",
+            rows:[
+              {lbl:"Sharing 6U — 1 Hari", price:"5k"},
+              {lbl:"Sharing 6U — 2 Hari", price:"6k"},
+              {lbl:"Sharing 6U — 3 Hari", price:"8k"},
+              {lbl:"Sharing 6U — 5 Hari", price:"10k"},
+              {lbl:"Sharing 6U — 7 Hari", price:"12k"},
+              {lbl:"Sharing 6U — 1 Bulan", price:"28k"},
+              {lbl:"Sharing 3U Anlim — 1 Hari", price:"6k"},
+              {lbl:"Sharing 3U Anlim — 2 Hari", price:"10k"},
+              {lbl:"Sharing 3U Anlim — 3 Hari", price:"12k"},
+              {lbl:"Sharing 3U Anlim — 5 Hari", price:"16k"},
+              {lbl:"Sharing 3U Anlim — 7 Hari", price:"20k"},
+              {lbl:"Sharing 3U Anlim — 1 Bulan", price:"55k"},
+              {lbl:"Private Basic — 1 Bulan", price:"75k"},
+              {lbl:"Private Prem — 1 Bulan", price:"140k"}
+            ]
+          },
+          {
+            name:"Viu",
+            rows:[
+              {lbl:"Harian — 1 Hari", price:"1k"},
+              {lbl:"Harian — 3 Hari", price:"2k"},
+              {lbl:"Harian — 7 Hari", price:"6k"},
+              {lbl:"Private — 1 Bulan", price:"8k"},
+              {lbl:"Private — 2 Bulan", price:"14k"},
+              {lbl:"Private — 3 Bulan", price:"22k"},
+              {lbl:"Private — 6 Bulan", price:"36k"},
+              {lbl:"Private — 1 Tahun", price:"45k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>1 tahun garansi 6 bulan</li><li>Anti Limit +2k</li></ul>"
+          },
+          {
+            name:"Bstation",
+            rows:[
+              {lbl:"Sharing — 7 Hari", price:"5k"},
+              {lbl:"Sharing — 1 Bulan", price:"10k"},
+              {lbl:"Sharing — 3 Bulan", price:"28k"},
+              {lbl:"Sharing — 1 Tahun", price:"35k"},
+              {lbl:"Private — 1 Bulan", price:"60k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Paket 1 tahun garansi 6 bulan</li></ul>"
+          },
+          {
+            name:"Vidio",
+            badge:"Platinum",
+            rows:[
+              {lbl:"Harian All Device — 1 Hari", price:"10k"},
+              {lbl:"Harian All Device — 3 Hari", price:"15k"},
+              {lbl:"Harian All Device — 5 Hari", price:"20k"},
+              {lbl:"Harian All Device — 7 Hari", price:"24k"},
+              {lbl:"Harian Mobile — 1 Hari", price:"8k"},
+              {lbl:"Harian Mobile — 3 Hari", price:"12k"},
+              {lbl:"Harian Mobile — 5 Hari", price:"18k"},
+              {lbl:"Harian Mobile — 7 Hari", price:"20k"},
+              {lbl:"All Device — 1 Bulan Sharing 2U", price:"28k"},
+              {lbl:"All Device — 1 Bulan Private", price:"48k"},
+              {lbl:"Mobile Only — 1 Bulan Sharing 2U", price:"25k"},
+              {lbl:"Mobile Only — 1 Bulan Private", price:"35k"},
+              {lbl:"TV Only — 1 Bulan Private", price:"30k"},
+              {lbl:"TV Only — 3 Bulan Private", price:"40k"},
+              {lbl:"TV Only — 6 Bulan Private", price:"50k"},
+              {lbl:"TV Only — 1 Tahun Private", price:"58k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Garansi backfree only (bukan disable)</li><li>Akun store</li><li>Limit screen hanya 1 device untuk semua plan</li><li>Plan TV with ads, ketentuan dari Vidio langsung</li></ul>"
+          },
+          {
+            name:"Amazon Prime",
+            rows:[
+              {lbl:"Mobile 4U — 1 Hari", price:"5k"},
+              {lbl:"Mobile 4U — 3 Hari", price:"8k"},
+              {lbl:"Mobile 4U — 7 Hari", price:"10k"},
+              {lbl:"Sharing 4U — 1 Bulan", price:"16k"},
+              {lbl:"Sharing 3U Anti Limit — 7 Hari", price:"12k"},
+              {lbl:"Sharing 3U Anti Limit — 1 Bulan", price:"20k"},
+              {lbl:"Private — 1 Bulan", price:"30k"}
+            ]
+          },
+          {
+            name:"HBO",
+            rows:[
+              {lbl:"Standart — 1 Hari Private", price:"8k"},
+              {lbl:"Standart — 3 Hari Private", price:"15k"},
+              {lbl:"Standart — 7 Hari Private", price:"20k"},
+              {lbl:"Standart — 1 Bulan Sharing 5U", price:"25k"},
+              {lbl:"Standart — 1 Bulan Private", price:"75k"},
+              {lbl:"Ultimate — 1 Hari Private", price:"8.5k"},
+              {lbl:"Ultimate — 3 Hari Private", price:"17k"},
+              {lbl:"Ultimate — 7 Hari Private", price:"26k"},
+              {lbl:"Ultimate — 1 Bulan Sharing 5U", price:"30k"},
+              {lbl:"Ultimate — 1 Bulan Private", price:"105k"}
+            ]
+          },
+          appTBD("Beinsport"),
+          appTBD("Vision+"),
+          {
+            name:"iQIYI",
+            rows:[
+              {lbl:"Sharing Standar — 1 Bulan (PROMO)", price:"18k"},
+              {lbl:"Sharing Standar — 3 Bulan", price:"26k"},
+              {lbl:"Sharing Standar — 1 Tahun", price:"40k"},
+              {lbl:"Sharing Premium — 1 Bulan (PROMO)", price:"22k"},
+              {lbl:"Sharing Premium — 1 Bulan Anlim", price:"28k"},
+              {lbl:"Sharing Premium — 1 Tahun", price:"45k"},
+              {lbl:"Private Standard — 1 Bulan", price:"35k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Garansi backfree only</li></ul>"
+          },
+          {
+            name:"Crunchyroll",
+            badge:"full garansi",
+            rows:[
+              {lbl:"Sharing — 1 Bulan", price:"14k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Akun dari seller</li><li>Full garansi</li></ul>"
+          }
+        ]},
+        "editing":{ title:"🎨 Editing App", color:"green", apps:[
+          {
+            name:"Canva",
+            rows:[
+              {lbl:"Harian — 1 Hari", price:"1k"},
+              {lbl:"Harian — 3 Hari", price:"2k"},
+              {lbl:"Harian — 7 Hari", price:"6k"},
+              {lbl:"Bulanan — 1 Bulan", price:"10k"},
+              {lbl:"Bulanan — 2 Bulan", price:"12k"},
+              {lbl:"Bulanan — 3 Bulan", price:"13k"},
+              {lbl:"Bulanan — 4 Bulan", price:"14k"},
+              {lbl:"Bulanan — 5 Bulan", price:"14,5k"},
+              {lbl:"Bulanan — 6 Bulan", price:"15k"},
+              {lbl:"Bulanan — 1 Tahun", price:"26k"},
+              {lbl:"Lifetime — Garansi 6 Bulan", price:"12k"},
+              {lbl:"Lifetime — Garansi 12 Bulan", price:"20k"},
+              {lbl:"Canva Head — 1 Bulan", price:"16k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Designer +1k</li><li>Canva Head bisa invite 100 anggota</li></ul>"
+          },
+          {
+            name:"CapCut",
+            rows:[
+              {lbl:"Pro Privat — 3 Hari", price:"10k"},
+              {lbl:"Pro Privat — 5 Hari", price:"14k"},
+              {lbl:"Pro Privat — 7 Hari", price:"20k"},
+              {lbl:"Pro Privat — 1 Bulan Ind", price:"48k"},
+              {lbl:"Pro Sharing — 3 Hari", price:"8k"},
+              {lbl:"Pro Sharing — 5 Hari", price:"10k"},
+              {lbl:"Pro Sharing — 7 Hari", price:"14k"},
+              {lbl:"Pro Sharing — 1 Bulan Ind", price:"26k"},
+              {lbl:"Standar — 1 Minggu Sharing", price:"15k"},
+              {lbl:"Standar — 2 Minggu Sharing 3U", price:"18k"},
+              {lbl:"Standar — 2 Minggu Privat", price:"20k"}
+            ]
+          },
+          {
+            name:"Dazz Cam",
+            rows:[
+              {lbl:"Lifetime — Garansi 6 Bulan", price:"22k"},
+              {lbl:"Lifetime — Garansi 9 Bulan", price:"35k"},
+              {lbl:"Lifetime — Garansi 12 Bulan", price:"40k"}
+            ]
+          },
+          {
+            name:"Meitu",
+            rows:[
+              {lbl:"VIP — 7 Hari 2U", price:"12k"},
+              {lbl:"VIP — 1 Bulan 2U", price:"25k"},
+              {lbl:"VIP — 7 Hari Privat", price:"18k"},
+              {lbl:"VIP — 1 Bulan Privat", price:"38k"},
+              {lbl:"VIP+ — 1 Bulan 3U", price:"25k"},
+              {lbl:"VIP+ — 1 Bulan 2U", price:"30k"},
+              {lbl:"VIP+ — 1 Bulan Privat", price:"50k"}
+            ]
+          },
+          {
+            name:"Wink",
+            rows:[
+              {lbl:"Privat Android — 3 Hari", price:"10k"},
+              {lbl:"Privat Android — 5 Hari", price:"12k"},
+              {lbl:"Privat Android — 7 Hari", price:"14k"},
+              {lbl:"Privat Android — 14 Hari (renew)", price:"22k"},
+              {lbl:"Privat Android — 21 Hari (renew)", price:"28k"},
+              {lbl:"Privat iOS & Android — 1 Bulan", price:"50k"},
+              {lbl:"Sharing 2U iOS & Android — 1 Bulan", price:"42k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Kelock = tidak ada garansi</li><li>Akun sharing history tercampur</li><li>Support Android &amp; iOS tergantung stock</li></ul>"
+          },
+          {
+            name:"ibisPaint",
+            rows:[
+              {lbl:"Sharing — 1 Bulan", price:"12k"},
+              {lbl:"Sharing — 12 Bulan", price:"40k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Tanya stock terlebih dahulu</li></ul>"
+          },
+          {
+            name:"Lightroom",
+            rows:[
+              {lbl:"Sharing — 1 Bulan", price:"10k"},
+              {lbl:"Sharing — 3 Bulan", price:"18k"},
+              {lbl:"Sharing — 6 Bulan", price:"22k"},
+              {lbl:"Sharing — 1 Tahun", price:"30k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Paket 1 tahun garansi 7 bulan</li></ul>"
+          },
+          {
+            name:"VSCO",
+            rows:[
+              {lbl:"Pro iOS — 1 Tahun", price:"25k"},
+              {lbl:"Plus iOS & Android — 1 Tahun", price:"16k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Garansi 6 bulan</li></ul>"
+          },
+          {
+            name:"Alight Motion",
+            rows:[
+              {lbl:"Sharing — 1 Bulan", price:"12k"},
+              {lbl:"Sharing — 3 Bulan", price:"20k"},
+              {lbl:"Sharing — 6 Bulan", price:"35k"},
+              {lbl:"Sharing — 1 Tahun", price:"40k"},
+              {lbl:"Private — 1 Bulan", price:"20k"},
+              {lbl:"Private — 1 Tahun", price:"50k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Sharing 1 tahun garansi 6 bulan</li><li>Private 1 tahun garansi 6 bulan, bisa req acc sendiri</li></ul>"
+          },
+          {
+            name:"Prequel",
+            rows:[
+              {lbl:"Android — 1 Tahun", price:"30k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Garansi 6 bulan</li></ul>"
+          },
+          {
+            name:"PicsArt",
+            rows:[
+              {lbl:"Private — 7 Hari", price:"10k"}
+            ]
+          }
+        ]},
+        "music":{ title:"🎧 Music App", color:"blue", apps:[
+          {
+            name:"YouTube",
+            rows:[
+              {lbl:"Famplan Biasa — 1 Bulan", price:"10k"},
+              {lbl:"Famplan Biasa — 2 Bulan (renew)", price:"16k"},
+              {lbl:"Famplan Anti Limit — 1 Bulan Pertama", price:"20k"},
+              {lbl:"Famplan Anti Limit — Perpanjangan", price:"8k"},
+              {lbl:"Indplan — 1 Bulan", price:"15k"},
+              {lbl:"Indplan — 2 Bulan (renew)", price:"26k"},
+              {lbl:"Indplan — 3 Bulan (renew)", price:"38k"},
+              {lbl:"Indplan — 3 Bulan (norenew nogar)", price:"35k"},
+              {lbl:"Mixplan — 2 Bulan", price:"20k"},
+              {lbl:"Mixplan — 3 Bulan", price:"28k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Garansi backfree only</li><li>Indplan only acc seller</li><li>Famplan only acc cust</li><li>Head famplan can invite 5 org</li><li>Indplan bisa akun cust FRESH ONLY</li><li>Mixplan = indplan + famplan</li><li>Famplan via invite 2x dalam setahun (acc buyer)</li><li>Famplan akun seller +3k</li><li>Famplan anti limit = tanpa ganti email tiap bulan, bisa perpanjang lebih dari 2 bulan di email yang sama (wajib email yang belum pernah join famplan sebelumnya), s&amp;k berlaku</li></ul>"
+          },
+          {
+            name:"Apple Music",
+            rows:[
+              {lbl:"Famplan — 1 Bulan", price:"10k"},
+              {lbl:"Famplan — 2 Bulan", price:"18k"},
+              {lbl:"Famplan — 3 Bulan", price:"28k"},
+              {lbl:"Famplan No Renew — 2 Bulan", price:"22k"},
+              {lbl:"Famplan No Renew — 3 Bulan", price:"30k"},
+              {lbl:"Famplan No Renew — 4 Bulan", price:"35k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Via invite</li><li>1 akun dalam setahun hanya bisa join family plan 2x</li><li>Sebelum payment pastikan akun tidak limit dan sudah left family lama</li></ul>"
+          },
+          {
+            name:"Spotify",
+            rows:[
+              {lbl:"Famplan — 1 Hari", price:"5k"},
+              {lbl:"Famplan — 3 Hari", price:"8k"},
+              {lbl:"Famplan — 5 Hari", price:"12k"},
+              {lbl:"Famplan — 7 Hari", price:"16k"},
+              {lbl:"Famplan — 1 Bulan", price:"24k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Need email cust</li><li>Akun seller +2k</li></ul>"
+          }
+        ]},
+        "vpn":{ title:"🔐 VPN App", color:"", apps:[
+          {
+            name:"HMA VPN",
+            badge:"private",
+            rows:[
+              {lbl:"7 Hari", price:"12k"},
+              {lbl:"14 Hari", price:"16k"},
+              {lbl:"1 Bulan", price:"25k"},
+              {lbl:"2 Bulan", price:"35k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Wajib info device login ke seller sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
+          },
+          {
+            name:"Express VPN",
+            badge:"private",
+            rows:[
+              {lbl:"7 Hari", price:"12k"},
+              {lbl:"14 Hari", price:"16k"},
+              {lbl:"1 Bulan", price:"25k"},
+              {lbl:"2 Bulan", price:"35k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Wajib info device login ke seller sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
+          },
+          {
+            name:"Surfshark VPN",
+            badge:"private",
+            rows:[
+              {lbl:"Harga", price:"chat seller"}
+            ]
+          },
+          {
+            name:"Turbo VPN",
+            badge:"private",
+            rows:[
+              {lbl:"7 Hari", price:"12k"},
+              {lbl:"14 Hari", price:"16k"},
+              {lbl:"1 Bulan", price:"25k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Wajib info device login ke seller sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
+          },
+          {
+            name:"Avira Phantom VPN",
+            badge:"private",
+            rows:[
+              {lbl:"1 Bulan", price:"12k"},
+              {lbl:"2 Bulan", price:"35k"},
+              {lbl:"3 Bulan", price:"45k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Wajib info device login ke seller sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
+          },
+          {
+            name:"PIA VPN",
+            badge:"private",
+            rows:[
+              {lbl:"7 Hari", price:"12k"},
+              {lbl:"14 Hari", price:"16k"},
+              {lbl:"1 Bulan", price:"25k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Premium (Private Internet Access)</li><li>Wajib info device login ke seller sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
+          },
+          {
+            name:"IPVanish VPN",
+            badge:"private",
+            rows:[
+              {lbl:"7 Hari", price:"12k"},
+              {lbl:"14 Hari", price:"16k"},
+              {lbl:"1 Bulan", price:"25k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Wajib info device login ke seller sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
+          }
+        ]},
+        "reading":{ title:"📖 Reading App", color:"green", apps:[
+          appTBD("Wattpad")
+        ]},
+        "education":{ title:"🪴 Education App", color:"blue", apps:[
+          {
+            name:"Duolingo",
+            rows:[
+              {lbl:"Private Famplan — 1 Bulan", price:"12k"},
+              {lbl:"Private Famplan — 2 Bulan", price:"16k"},
+              {lbl:"Private Famplan — 3 Bulan", price:"20k"},
+              {lbl:"Private Famplan — 6 Bulan", price:"30k"},
+              {lbl:"Private Famplan — 1 Tahun", price:"40k"},
+              {lbl:"Head — 1 Bulan", price:"30k"},
+              {lbl:"Private Indplan — 1 Bulan", price:"14k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Head bisa invite 5 member</li></ul>"
+          },
+          appTBD("ChatGPT"),
+          appTBD("Gemini"),
+          {
+            name:"Perplexity",
+            rows:[
+              {lbl:"Private — 1 Bulan", price:"30k"},
+              {lbl:"Private Plus — 1 Bulan", price:"60k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Private full garansi</li></ul>"
+          },
+          {
+            name:"Grok",
+            rows:[
+              {lbl:"Super Grok Private — 3 Hari", price:"20k"},
+              {lbl:"Super Grok Private — 1 Bulan", price:"200k"},
+              {lbl:"Super Grok Sharing — 1 Bulan", price:"90k"}
+            ]
+          },
+          {
+            name:"MS365",
+            rows:[
+              {lbl:"Sharing — 1 Bulan", price:"20k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Via invite</li></ul>"
+          },
+          {
+            name:"Zoom",
+            rows:[
+              {lbl:"Per Jam — 1 Jam", price:"1,5k"},
+              {lbl:"Per Jam — 3 Jam", price:"2,5k"},
+              {lbl:"Per Jam — 6 Jam", price:"5k"},
+              {lbl:"Per Jam — 12 Jam", price:"8k"},
+              {lbl:"Per Hari — 1 Hari", price:"7k"},
+              {lbl:"Per Hari — 3 Hari", price:"9k"},
+              {lbl:"Per Hari — 7 Hari", price:"10k"},
+              {lbl:"Per Hari — 1 Bulan", price:"20k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>1 bulan bisa ganti akun 1x</li><li>100 partisipan</li></ul>"
+          },
+          {
+            name:"Kilonotes",
+            rows:[
+              {lbl:"Lifetime iOS/Android", price:"30k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Garansi 6 bulan</li></ul>"
+          },
+          {
+            name:"Goodnotes",
+            rows:[
+              {lbl:"Lifetime", price:"30k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Garansi 6 bulan</li></ul>"
+          },
+          {
+            name:"iLovePDF",
+            rows:[
+              {lbl:"Sharing — 1 Bulan", price:"20k"},
+              {lbl:"Sharing — 1 Tahun", price:"40k"}
+            ]
+          },
+          {
+            name:"QuillBot",
+            rows:[
+              {lbl:"Sharing — 1 Bulan", price:"20k"}
+            ]
+          },
+          {
+            name:"Grammarly",
+            rows:[
+              {lbl:"Private — 1 Bulan", price:"32k"}
+            ]
+          },
+          {
+            name:"CamScanner",
+            rows:[
+              {lbl:"Sharing — 1 Bulan", price:"15k"},
+              {lbl:"Sharing — 1 Tahun", price:"45k"}
+            ]
+          }
+        ]}
+      }
+    },
+    "education-needs":{
+      title:"🌱 Education Needs",
+      subs:{
+        "edu-app":{ title:"🪴 Education App", color:"blue", apps:[
+          {
+            name:"Duolingo",
+            rows:[
+              {lbl:"Private Famplan — 1 Bulan", price:"12k"},
+              {lbl:"Private Famplan — 2 Bulan", price:"16k"},
+              {lbl:"Private Famplan — 3 Bulan", price:"20k"},
+              {lbl:"Private Famplan — 6 Bulan", price:"30k"},
+              {lbl:"Private Famplan — 1 Tahun", price:"40k"},
+              {lbl:"Head — 1 Bulan", price:"30k"},
+              {lbl:"Private Indplan — 1 Bulan", price:"14k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Head bisa invite 5 member</li></ul>"
+          },
+          appTBD("ChatGPT"),
+          appTBD("Gemini"),
+          {
+            name:"Perplexity",
+            rows:[
+              {lbl:"Private — 1 Bulan", price:"30k"},
+              {lbl:"Private Plus — 1 Bulan", price:"60k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Private full garansi</li></ul>"
+          },
+          {
+            name:"Grok",
+            rows:[
+              {lbl:"Super Grok Private — 3 Hari", price:"20k"},
+              {lbl:"Super Grok Private — 1 Bulan", price:"200k"},
+              {lbl:"Super Grok Sharing — 1 Bulan", price:"90k"}
+            ]
+          },
+          {
+            name:"MS365",
+            rows:[
+              {lbl:"Sharing — 1 Bulan", price:"20k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Via invite</li></ul>"
+          },
+          {
+            name:"Zoom",
+            rows:[
+              {lbl:"Per Jam — 1 Jam", price:"1,5k"},
+              {lbl:"Per Jam — 3 Jam", price:"2,5k"},
+              {lbl:"Per Jam — 6 Jam", price:"5k"},
+              {lbl:"Per Jam — 12 Jam", price:"8k"},
+              {lbl:"Per Hari — 1 Hari", price:"7k"},
+              {lbl:"Per Hari — 3 Hari", price:"9k"},
+              {lbl:"Per Hari — 7 Hari", price:"10k"},
+              {lbl:"Per Hari — 1 Bulan", price:"20k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>1 bulan bisa ganti akun 1x</li><li>100 partisipan</li></ul>"
+          },
+          {
+            name:"Kilonotes",
+            rows:[
+              {lbl:"Lifetime iOS/Android", price:"30k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Garansi 6 bulan</li></ul>"
+          },
+          {
+            name:"Goodnotes",
+            rows:[
+              {lbl:"Lifetime", price:"30k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Garansi 6 bulan</li></ul>"
+          },
+          {
+            name:"iLovePDF",
+            rows:[
+              {lbl:"Sharing — 1 Bulan", price:"20k"},
+              {lbl:"Sharing — 1 Tahun", price:"40k"}
+            ]
+          },
+          {
+            name:"QuillBot",
+            rows:[
+              {lbl:"Sharing — 1 Bulan", price:"20k"}
+            ]
+          },
+          {
+            name:"Grammarly",
+            rows:[
+              {lbl:"Private — 1 Bulan", price:"32k"}
+            ]
+          },
+          {
+            name:"CamScanner",
+            rows:[
+              {lbl:"Sharing — 1 Bulan", price:"15k"},
+              {lbl:"Sharing — 1 Tahun", price:"45k"}
+            ]
+          }
+        ]},
+        "cek-turnitin":{ title:"🔍 Cek Turnitin & AI", color:"", apps:[
+          {
+            name:"Similarity Turnitin",
+            rows:[
+              {lbl:"New Ver — <100 page", price:"8k"},
+              {lbl:"New Ver — >100 page", price:"10k"},
+              {lbl:"New Ver — >200 page", price:"14k"},
+              {lbl:"Old Ver — <100 page", price:"7k"},
+              {lbl:"Old Ver — >100 page", price:"9,5k"},
+              {lbl:"Old Ver — >200 page", price:"10k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>File harus PDF (biar proses cepat)</li><li>PDF bukan hasil scan / full gambar</li><li>Diusahakan file max 5mb-an</li><li>Order wajib sebut: tampilan &amp; filter</li><li>Contoh: lama, quotes biblio ✅ atau baru, cited biblio ✅</li></ul>"
+          },
+          {
+            name:"AI Turnitin",
+            rows:[
+              {lbl:"1x Cek", price:"30k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>File harus Word .DOC, min 400 words maks 30k words</li><li>Sertakan screenshot jumlah kata</li></ul>"
+          },
+          {
+            name:"AI iThenticate",
+            rows:[
+              {lbl:"1x Cek", price:"25k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Kirim file .DOC Word</li><li>Hanya untuk cek <200 halaman</li></ul>"
+          },
+          {
+            name:"AI GPTZero",
+            rows:[
+              {lbl:"<50k karakter", price:"7k"},
+              {lbl:">50k karakter", price:"8k"},
+              {lbl:">100k karakter", price:"15k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Max 150k karakter</li></ul>"
+          }
+        ]},
+      }
+    },
+    "game-needs":{
+      title:"🕹️ Game Needs",
+      subs:{
+        "game-ios":{ title:"🍎 Game App (iOS)", color:"green", apps:[
+          {
+            name:"Harvest Moon",
+            badge:"lifetime",
+            rows:[{lbl:"Lifetime", price:"15k"}]
+          },
+          {
+            name:"Pocket City 1 & 2",
+            badge:"lifetime",
+            rows:[{lbl:"Lifetime", price:"22k"}]
+          },
+          {
+            name:"Papa's To Go (17 games)",
+            badge:"lifetime",
+            rows:[{lbl:"Lifetime", price:"35k"}],
+            notes:"📝 <b>Notes:</b><ul><li>Garansi 6 bulan</li></ul>"
+          },
+          {
+            name:"Monument Valley",
+            badge:"lifetime",
+            rows:[{lbl:"Lifetime", price:"18k"}]
+          }
+        ]},
+        "game-android":{ title:"🥭 Game App (Android)", color:"green", apps:[
+          {
+            name:"FNAF (all series)",
+            badge:"lifetime",
+            rows:[{lbl:"Lifetime", price:"28k"}]
+          },
+          {
+            name:"Minecraft",
+            badge:"lifetime",
+            rows:[{lbl:"Lifetime", price:"16k"}]
+          },
+          {
+            name:"Stardew Valley",
+            badge:"lifetime",
+            rows:[{lbl:"Lifetime", price:"28k"}]
+          },
+          {
+            name:"Papa's To Go (17 games)",
+            badge:"lifetime",
+            rows:[{lbl:"Lifetime", price:"35k"}]
+          },
+          {
+            name:"Human Fall Flat",
+            badge:"lifetime",
+            rows:[{lbl:"Lifetime", price:"30k"}]
+          }
+        ]},
+        "topup-roblox":{ title:"🔲 Topup Roblox", color:"", apps:[
+          {
+            name:"Robux Vilog",
+            rows:[
+              {lbl:"Vilog A — 80 robux", price:"16k"},
+              {lbl:"Vilog A — 160 robux", price:"30k"},
+              {lbl:"Vilog A — 240 robux", price:"46k"},
+              {lbl:"Vilog A — 320 robux", price:"60k"},
+              {lbl:"Vilog B — 500 robux", price:"72k"},
+              {lbl:"Vilog B — 1000 robux", price:"142k"},
+              {lbl:"Vilog B — 1500 robux", price:"212k"},
+              {lbl:"Vilog B — 2000 robux", price:"277k"},
+              {lbl:"Vilog B — 3000 robux", price:"419k"},
+              {lbl:"Vilog B — 4000 robux", price:"558k"},
+              {lbl:"Vilog B — 5000 robux", price:"698k"},
+              {lbl:"Premium — 450", price:"72k"},
+              {lbl:"Premium — 1000", price:"142k"},
+              {lbl:"Premium — 2200", price:"275k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Proses 5–30 menit tergantung antrian</li><li>Sertakan backup kalau ada; kalau tidak ada boleh email tapi wajib standby</li></ul>"
+          },
+          {
+            name:"Robux Gamepass",
+            rows:[
+              {lbl:"Per 100 robux", price:"12k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Butuh username &amp; link gamepass saja</li><li>Fast pending, robux masuk dalam 5 hari</li><li>Seller tidak kasih ss pending robux; bisa dicek mandiri</li></ul>"
+          },
+          appTBD("Robux visend")
+        ]},
+        "discord":{ title:"💬 Discord Service", color:"blue", apps:[
+          {
+            name:"Nitro",
+            rows:[
+              {lbl:"Harga", price:"chat seller"}
+            ]
+          },
+          {
+            name:"Discord Decoration",
+            rows:[
+              {lbl:"Via Gift — 4.99$", price:"33k"},
+              {lbl:"Via Gift — 5.99$", price:"39k"},
+              {lbl:"Via Gift — 6.99$", price:"45k"},
+              {lbl:"Via Gift — 7.99$", price:"59k"},
+              {lbl:"Via Gift — 8.49$", price:"66k"},
+              {lbl:"Via Gift — 8.99$", price:"63k"},
+              {lbl:"Via Gift — 9.99$", price:"77k"},
+              {lbl:"Via Gift — 11.99$", price:"93k"},
+              {lbl:"Via Login — 4.99$", price:"27k"},
+              {lbl:"Via Login — 5.99$", price:"29k"},
+              {lbl:"Via Login — 6.99$", price:"33k"},
+              {lbl:"Via Login — 7.99$", price:"43k"},
+              {lbl:"Via Login — 8.49$", price:"46k"},
+              {lbl:"Via Login — 8.99$", price:"48k"},
+              {lbl:"Via Login — 9.99$", price:"66k"},
+              {lbl:"Bundle Login — 10.99$", price:"52k"},
+              {lbl:"Bundle Login — 12.99$", price:"66k"},
+              {lbl:"Bundle Login — 15.99$", price:"75k"},
+              {lbl:"Bundle Login — 17.99$", price:"119k"},
+              {lbl:"Bundle Login — 21.99$", price:"129k"}
+            ]
+          }
+        ]}
+      }
+    },
+    "social-media":{
+      title:"☕ Social Media Needs",
+      subs:{
+        "sosmed":{ title:"☕ Social Media Needs", color:"", apps:[
+          {
+            name:"Nomor Kosong",
+            rows:[
+              {lbl:"Nogar", price:"10k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Social: WA, Tele, YT, IG, X, Gmail, Line, Tinder, Bubble</li><li>E-wallet: SPay, GoPay, Dana</li><li>Untuk apk lain bisa ditanyakan dulu</li><li>OTP hubungi seller</li><li>Ready nokos luar Indo</li></ul>"
+          },
+          {
+            name:"Coinline",
+            rows:[
+              {lbl:"10c", price:"5k"},
+              {lbl:"50c", price:"14k"},
+              {lbl:"100c", price:"25k"},
+              {lbl:"150c", price:"36k"},
+              {lbl:"200c", price:"45k"},
+              {lbl:"250c", price:"54k"},
+              {lbl:"300c", price:"72k"},
+              {lbl:"350c", price:"74k"},
+              {lbl:"400c", price:"85k"},
+              {lbl:"450c", price:"91k"},
+              {lbl:"500c", price:"100k"},
+              {lbl:"1000c", price:"198k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Dikirim via gift</li><li>Fast gift, proses 1–5 menit</li><li>Butuh link idline/no.hp &amp; link sticker/theme</li><li>Nominal yang tidak ada bisa ditanyakan ke room chat</li></ul>"
+          },
+          {
+            name:"Teleprem",
+            badge:"full garansi & legal paid",
+            rows:[
+              {lbl:"Vilog — 1 Bulan", price:"58k"},
+              {lbl:"Vilog — 1 Tahun", price:"375k"},
+              {lbl:"Via Gift — 3 Bulan", price:"215k"},
+              {lbl:"Via Gift — 6 Bulan", price:"300k"},
+              {lbl:"Via Gift — 1 Tahun", price:"525k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Avail bulk acc (bisa lebih murah)</li><li>Pemakaian pribadi &amp; no luar kena fee (+2k)</li><li>Hanya bisa renewal ketika masa langganan sudah habis</li></ul>"
+          },
+          {
+            name:"Instagram",
+            rows:[
+              {lbl:"Followers Mix — 100", price:"10k"},
+              {lbl:"Followers Mix — 200", price:"18k"},
+              {lbl:"Followers Mix — 500", price:"32k"},
+              {lbl:"Followers Indo Aktif — 100", price:"20k"},
+              {lbl:"Followers Indo Aktif — 200", price:"30k"},
+              {lbl:"Followers Indo Aktif — 300", price:"40k"},
+              {lbl:"Followers Indo Aktif — 500", price:"65k"},
+              {lbl:"Followers Indo Aktif — 1000", price:"110k"},
+              {lbl:"Like — 100", price:"6k"},
+              {lbl:"Like — 200", price:"15k"},
+              {lbl:"Like — 500", price:"24k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Berlaku kelipatan</li></ul>"
+          },
+          {
+            name:"TikTok",
+            rows:[
+              {lbl:"Like — 500", price:"5k"},
+              {lbl:"Like — 1000", price:"10k"},
+              {lbl:"Like — 2000", price:"18k"},
+              {lbl:"Followers — 100", price:"12k"},
+              {lbl:"Followers — 200", price:"20k"},
+              {lbl:"Followers — 500", price:"48k"},
+              {lbl:"Views — 1000", price:"4k"},
+              {lbl:"Views — 2000", price:"6k"}
+            ],
+            notes:"📝 <b>Notes:</b><ul><li>Berlaku kelipatan</li></ul>"
+          }
+        ]}
+      }
+    }
+  };
+
+  // helper: app with prices not filled in yet
+  function appTBD(name){
+    return { name, rows:[{lbl:"Harga", price:"chat seller"}] };
+  }
+
+  const app = document.getElementById('app');
+  const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+  // build the pricelist landing (categories + clickable subcategory chips)
+  function pricelistLanding(){
+    let cats = '';
+    for(const [catKey,cat] of Object.entries(priceData)){
+      let subs = '';
+      for(const [subKey,sub] of Object.entries(cat.subs)){
+        const color = sub.color ? ' '+sub.color : '';
+        const chips = sub.apps.map(a=>
+          `<span role="button" tabindex="0" data-cat="${catKey}" data-sub="${subKey}" data-app="${esc(a.name)}">${esc(a.name)}</span>`
+        ).join('');
+        subs += `<div class="subcat">${sub.title}</div><div class="taglist${color}">${chips}</div>`;
+      }
+      cats += `<details class="cat">
+        <summary>${cat.title} <span class="arrow">›</span></summary>
+        ${subs}
+      </details>`;
+    }
+    return `<div class="panel">
+      <h2>🧸 Pricelist</h2>
+      <p style="font-size:13px;margin-bottom:14px;">Tap kategori untuk buka, lalu tap nama aplikasi untuk lihat harganya </p>
+      ${cats}
+      <div class="divider">♡ ♡ ♡</div>
+      <p style="text-align:center;font-size:13px;">Belum nemu yang dicari? Chat Morii yap</p>
+    </div>`;
+  }
+
+  // build a single app detail page
+  function appDetail(catKey, subKey, appName){
+    const sub = priceData[catKey].subs[subKey];
+    const a = sub.apps.find(x=>x.name===appName) || sub.apps[0];
+    const rows = a.rows.map(r=>
+      `<div class="prow"><span class="lbl">${esc(r.lbl)}</span><span class="price">${esc(r.price)}</span></div>`
+    ).join('');
+    const badge = a.badge ? `<span class="note-tag">✓ ${esc(a.badge)}</span><br>` : '';
+    const notes = a.notes ? `<div class="pnotes">${a.notes}</div>` : '';
+    return `<div class="panel">
+      <button class="backbtn" data-back="1">‹ kembali</button>
+      <p style="font-size:12px;color:var(--mauve);margin-bottom:4px;">${sub.title}</p>
+      <div class="pcard">
+        <h3>${esc(a.name)}</h3>
+        ${badge}
+        ${rows}
+        ${notes}
+      </div>
+      <p style="text-align:center;font-size:12.5px;color:var(--mauve);">Order lewat Discord / WhatsApp di menu Home ya! 🎀</p>
+    </div>`;
+  }
+
+  const tabsStatic = tabs; // home, about, tnc
+
+  function render(tab){
+    let body;
+    if(tab==='price'){ body = pricelistLanding(); }
+    else { body = tabsStatic[tab]; }
+    app.innerHTML = `<div class="content"><div class="side">${sidebar}</div>${body}</div>`;
+  }
+  render('home');
+
+  // nav tabs
+  document.querySelectorAll('nav button').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      document.querySelector('nav button.active').classList.remove('active');
+      btn.classList.add('active');
+      render(btn.dataset.tab);
+    });
+  });
+
+  // delegated clicks for pricelist drill-down
+  app.addEventListener('click', e=>{
+    const chip = e.target.closest('[data-app]');
+    if(chip){
+      app.innerHTML = `<div class="content"><div class="side">${sidebar}</div>${appDetail(chip.dataset.cat, chip.dataset.sub, chip.dataset.app)}</div>`;
+      app.scrollIntoView({behavior:'smooth',block:'start'});
+      return;
+    }
+    if(e.target.closest('[data-back]')){ render('price'); }
+  });
+  // keyboard access on chips
+  app.addEventListener('keydown', e=>{
+    if((e.key==='Enter'||e.key===' ') && e.target.matches('[data-app]')){
+      e.preventDefault(); e.target.click();
+    }
+  });
+</script>
+</body>
+</html>
