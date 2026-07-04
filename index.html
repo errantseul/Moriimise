@@ -124,14 +124,11 @@
   /* ---------- LAYOUT ---------- */
   .content{
     display:grid;
-    grid-template-columns:1fr;
+    grid-template-columns:1fr 1.15fr;
     gap:18px;
     padding:22px 20px;
   }
-  @media(min-width:620px){
-    .content{grid-template-columns:1fr 1.15fr;}
-    .content.single{grid-template-columns:1fr;}
-  }
+  .content.single{grid-template-columns:1fr;}
 
   /* ---------- SIDEBAR ---------- */
   .sidebar{
