@@ -1297,7 +1297,7 @@
                 "price": "120k"
               }
             ],
-            "notes": "🌾 <b>Notes:</b><ul><li>Support all device</li><li>Bergaransi backfree / disable</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
+            "notes": "📝 <b>Notes:</b><ul><li>Support all device</li><li>Bergaransi backfree / disable</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
           },
           {
             "name": "ChatGPT",
@@ -1526,7 +1526,8 @@
                 "lbl": "Penomoran halaman",
                 "price": "2k/10 hal"
               },
-              "lbl": "Penomoran gambar/tabel",
+              {
+                "lbl": "Penomoran gambar/tabel",
                 "price": "2k/10 gambar/tabel"
               },
               {
