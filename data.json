@@ -1028,7 +1028,7 @@
                 "price": "120k"
               }
             ],
-            "notes": "🌾 <b>Notes:</b><ul><li>Support all device</li><li>Bergaransi backfree / disable</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
+            "notes": "📝 <b>Notes:</b><ul><li>Support all device</li><li>Bergaransi backfree / disable</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
           },
           {
             "name": "ChatGPT",
@@ -1289,6 +1289,10 @@
             "name": "Claude AI",
             "rows": [
               {
+                "lbl": "Sharing 3U — 7 Hari",
+                "price": "70k"
+              },
+              {
                 "lbl": "Sharing 5U — 1 Bulan",
                 "price": "120k"
               }
@@ -1520,7 +1524,7 @@
               },
               {
                 "lbl": "Penomoran halaman",
-                "price": "2k/ 10 hal"
+                "price": "2k/10 hal"
               },
               {
                 "lbl": "Margin, spasi, eyd dll",
