@@ -1020,6 +1020,10 @@
             "name": "Claude AI",
             "rows": [
               {
+                "lbl": "Sharing 3U — 7 Hari",
+                "price": "70k"
+              },
+              {
                 "lbl": "Sharing 5U — 1 Bulan",
                 "price": "120k"
               }
@@ -1515,8 +1519,12 @@
                 "price": "10k/hal"
               },
               {
-                "lbl": "Penomoran halaman, margin, spasi dll",
-                "price": "2k/hal"
+                "lbl": "Penomoran halaman",
+                "price": "2k/ 10 hal"
+              },
+              {
+                "lbl": "Margin, spasi, eyd dll",
+                "price": "1,5k/hal"
               }
             ]
           },
