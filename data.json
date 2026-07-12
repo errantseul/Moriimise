@@ -1526,6 +1526,9 @@
                 "lbl": "Penomoran halaman",
                 "price": "2k/10 hal"
               },
+              "lbl": "Penomoran gambar/tabel",
+                "price": "2k/10 gambar/tabel"
+              },
               {
                 "lbl": "Margin, spasi, eyd dll",
                 "price": "1,5k/hal"
