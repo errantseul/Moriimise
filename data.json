@@ -411,6 +411,60 @@
             "notes": "📝 <b>Notes:</b><ul><li>Garansi backfree only</li></ul>"
           },
           {
+            "name": "LOKLOK",
+            "rows": [
+              {
+                "lbl": "Sharing Basic 4u — 1 Hari",
+                "price": "7k"
+              },
+              {
+                "lbl": "Sharing Basic 4u — 3 Hari",
+                "price": "10k"
+              },
+              {
+                "lbl": "Sharing Basic 4u — 7 Hari",
+                "price": "14k"
+              },
+              {
+                "lbl": "Sharing Basic 4u — 14 Hari",
+                "price": "20k"
+              },
+              {
+                "lbl": "Sharing Basic 4u — 1 Bulan",
+                "price": "28k"
+              },
+              {
+                "lbl": "Private Basic — 7 Hari",
+                "price": "30k"
+              },
+              {
+                "lbl": "Private Basic — 14 Hari",
+                "price": "45k"
+              },
+              {
+                "lbl": "Private Basic — 1 Bulan",
+                "price": "58k"
+              },
+              {
+                "lbl": "Sharing Standard 3u — 14 Hari",
+                "price": "26k"
+              },
+              {
+                "lbl": "Sharing Standard 3u — 1 Bulan",
+                "price": "32k"
+              },
+              {
+                "lbl": "Private Standard — 7 Hari",
+                "price": "38k"
+              },
+              {
+                "lbl": "Private Standard — 1 Bulan",
+                "price": "72k"
+              },
+            ],
+            "notes": "📝 <b>Notes:</b><ul><li>Loklok (nama lama) = LOKTV/ROOKTV (nama baru)</li><li>Risiko beli sharing akun akan sering terlogout dan memerlukan OTP untuk login</li><li>Basic tidak bisa nonton di tv, standard bisa nonton di tv + short movie</li><li>Sharing 4u, limit stream 2u</li></ul>"
+          },
+          {
             "name": "Crunchyroll",
             "badge": "full garansi",
             "rows": [
