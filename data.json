@@ -1622,28 +1622,16 @@
             "name": "Similarity Turnitin",
             "rows": [
               {
-                "lbl": "New Ver — <100 page",
-                "price": "8k"
-              },
-              {
-                "lbl": "New Ver — >100 page",
-                "price": "10k"
-              },
-              {
-                "lbl": "New Ver — >200 page",
-                "price": "14k"
-              },
-              {
                 "lbl": "Old Ver — <100 page",
-                "price": "7k"
+                "price": "10k"
               },
               {
                 "lbl": "Old Ver — >100 page",
-                "price": "9,5k"
+                "price": "12k"
               },
               {
                 "lbl": "Old Ver — >200 page",
-                "price": "10k"
+                "price": "15k"
               }
             ],
             "notes": "📝 <b>Notes:</b><ul><li>File harus PDF (biar proses cepat)</li><li>PDF bukan hasil scan / full gambar</li><li>Diusahakan file max 5mb-an</li><li>Order wajib sebut: tampilan &amp; filter</li><li>Contoh: lama, quotes biblio ✅ atau baru, cited biblio ✅</li></ul>"
