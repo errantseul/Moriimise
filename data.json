@@ -1955,52 +1955,56 @@
                 "price": "93k"
               },
               {
-                "lbl": "Via Login — 4.99$",
-                "price": "27k"
+                "lbl": "Via Login — IDR 33,000",
+                "price": "25k"
               },
               {
-                "lbl": "Via Login — 5.99$",
-                "price": "29k"
+                "lbl": "Via Login — IDR 39,500",
+                "price": "28k"
               },
               {
-                "lbl": "Via Login — 6.99$",
-                "price": "33k"
+                "lbl": "Via Login — IDR 52,000",
+                "price": "36k"
               },
               {
-                "lbl": "Via Login — 7.99$",
-                "price": "43k"
+                "lbl": "Via Login — IDR 65,000",
+                "price": "45k"
               },
               {
-                "lbl": "Via Login — 8.49$",
-                "price": "46k"
+                "lbl": "Via Login — IDR 71,000",
+                "price": "54k"
               },
               {
-                "lbl": "Via Login — 8.99$",
-                "price": "48k"
+                "lbl": "Via Login — IDR 78,000",
+                "price": "57k"
               },
               {
-                "lbl": "Via Login — 9.99$",
-                "price": "66k"
-              },
-              {
-                "lbl": "Bundle Login — 10.99$",
-                "price": "52k"
-              },
-              {
-                "lbl": "Bundle Login — 12.99$",
-                "price": "66k"
-              },
-              {
-                "lbl": "Bundle Login — 15.99$",
+                "lbl": "Via Login — IDR 91,000",
                 "price": "75k"
               },
               {
-                "lbl": "Bundle Login — 17.99$",
-                "price": "119k"
+                "lbl": "Bundle Login — IDR 96,000",
+                "price": "78k"
               },
               {
-                "lbl": "Bundle Login — 21.99$",
-                "price": "129k"
+                "lbl": "Bundle Login — IDR 100,000",
+                "price": "85k"
+              },
+              {
+                "lbl": "Bundle Login — IDR 105,000",
+                "price": "91k"
+              },
+              {
+                "lbl": "Bundle Login — IDR 120,000",
+                "price": "110k"
+              },
+              {
+                "lbl": "Bundle Login — IDR 120,000",
+                "price": "102k"
+              },
+              {
+                "lbl": "Bundle Login — IDR 160,000",
+                "price": "148"
               }
             ]
           }
