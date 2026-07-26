@@ -1078,12 +1078,16 @@
             "name": "Claude AI",
             "rows": [
               {
-                "lbl": "Sharing 3U — 7 Hari",
-                "price": "70k"
+                "lbl": "Sharing 3U — 1 Hari",
+                "price": "28k"
               },
               {
                 "lbl": "Sharing 5U — 1 Bulan",
                 "price": "120k"
+              },
+              {
+                "lbl": "Private — 1 Hari",
+                "price": "40k"
               }
             ],
             "notes": "📝 <b>Notes:</b><ul><li>Support all device</li><li>Bergaransi backfree / disable</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
@@ -1110,6 +1114,10 @@
               {
                 "lbl": "Plus Sharing (3-5U) — 1 Bulan",
                 "price": "40k"
+              },
+              {
+                "lbl": "Plus Private Nogar Strong — 1 Bulan",
+                "price": "100k"
               },
               {
                 "lbl": "Team/Workspace — 1 Bulan Sharing",
@@ -1454,15 +1462,19 @@
             "name": "Grok",
             "rows": [
               {
-                "lbl": "Super Grok Private — 3 Hari",
-                "price": "20k"
+                "lbl": "Grok AI Private — 3 Hari",
+                "price": "35k"
               },
               {
-                "lbl": "Super Grok Private — 1 Bulan",
-                "price": "200k"
+                "lbl": "Grok AI Private — 7 Hari",
+                "price": "70k"
               },
               {
-                "lbl": "Super Grok Sharing — 1 Bulan",
+                "lbl": "Grok AI Private — 3 Bulan",
+                "price": "160k"
+              },
+              {
+                "lbl": "Grok AI Sharing — 3 Bulan",
                 "price": "90k"
               }
             ]
