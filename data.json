@@ -793,11 +793,15 @@
               },
               {
                 "lbl": "Famplan Anti Limit — Perpanjangan",
-                "price": "8k"
+                "price": "10,5k"
               },
               {
-                "lbl": "Indplan — 1 Bulan",
-                "price": "15k"
+                "lbl": "Indplan acc c fresh — 1 Bulan",
+                "price": "20k"
+              },
+              {
+                "lbl": "Indplan acc s — 1 Bulan",
+                "price": "24k"
               },
               {
                 "lbl": "Indplan — 2 Bulan (renew)",
@@ -809,7 +813,7 @@
               },
               {
                 "lbl": "Indplan — 3 Bulan (norenew nogar)",
-                "price": "35k"
+                "price": "40k"
               },
               {
                 "lbl": "Mixplan — 2 Bulan",
@@ -1169,15 +1173,19 @@
             "name": "Grok",
             "rows": [
               {
-                "lbl": "Super Grok Private — 3 Hari",
-                "price": "20k"
+                "lbl": "Grok AI Private — 3 Hari",
+                "price": "35k"
               },
               {
-                "lbl": "Super Grok Private — 1 Bulan",
-                "price": "200k"
+                "lbl": "Grok AI Private — 7 Hari",
+                "price": "70k"
               },
               {
-                "lbl": "Super Grok Sharing — 1 Bulan",
+                "lbl": "Grok AI Private — 3 Bulan",
+                "price": "160k"
+              },
+              {
+                "lbl": "Grok AI Sharing — 3 Bulan",
                 "price": "90k"
               }
             ]
@@ -1343,12 +1351,16 @@
             "name": "Claude AI",
             "rows": [
               {
-                "lbl": "Sharing 3U — 7 Hari",
-                "price": "70k"
+                "lbl": "Sharing 3U — 1 Hari",
+                "price": "28k"
               },
               {
                 "lbl": "Sharing 5U — 1 Bulan",
                 "price": "120k"
+              },
+              {
+                "lbl": "Private — 1 Hari",
+                "price": "40k"
               }
             ],
             "notes": "📝 <b>Notes:</b><ul><li>Support all device</li><li>Bergaransi backfree / disable</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
@@ -1375,6 +1387,10 @@
               {
                 "lbl": "Plus Sharing (3-5U) — 1 Bulan",
                 "price": "40k"
+              },
+              {
+                "lbl": "Plus Private Nogar Strong — 1 Bulan",
+                "price": "100k"
               },
               {
                 "lbl": "Team/Workspace — 1 Bulan Sharing",
@@ -1911,11 +1927,15 @@
         "title": "💬 Discord Service",
         "apps": [
           {
-            "name": "Nitro",
+            "name": "Discord Nitro",
             "rows": [
               {
-                "lbl": "Harga",
-                "price": "chat morii dulu ya"
+                "lbl": "Discord Nitro Trial Vilog — 3 Bulan",
+                "price": "55k"
+              },
+              {
+                "lbl": "Discord Nitro Trial Link Only — 3 Bulan",
+                "price": "25k"
               }
             ]
           },
@@ -2023,11 +2043,23 @@
             "name": "Nomor Kosong",
             "rows": [
               {
-                "lbl": "Nogar",
+                "lbl": "Telegram / Whatsapp",
                 "price": "10k"
-              }
+              },
+              {
+                "lbl": "E-Wallet",
+                "price": "6k"
+              },
+              {
+                "lbl": "Social Media",
+                "price": "5k"
+              },
+              {
+                "lbl": "Request Apk lain",
+                "price": "5k"
+              },
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Social: WA, Tele, YT, IG, X, Gmail, Line, Tinder, Bubble</li><li>E-wallet: SPay, GoPay, Dana</li><li>Untuk apk lain bisa ditanyakan dulu</li><li>OTP hubungi morii</li><li>Ready nokos luar Indo</li></ul>"
+            "notes": "📝 <b>Notes:</b><ul><li>Social: WA, Tele, YT, IG, X, Gmail, Line, Tinder, Bubble</li><li>E-wallet: SPay, GoPay, Dana</li><li>Untuk apk lain bisa ditanyakan dulu</li><li>OTP hubungi morii</li><li>Nokos Reg luar +2k</li><li>Semua produk nokos NOGAR</li></ul>"
           },
           {
             "name": "Coinline",
