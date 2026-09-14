@@ -1,12 +1,12 @@
 {
   "app-premium": {
-    "title": "📦 App Premium",
+    "title": "˗ˏˋ ꒰ app premium ꒱ ˎˊ˗",
     "subs": {
       "streaming": {
-        "title": "📽️ Streaming App",
+        "title": "➤ Streaming App",
         "apps": [
           {
-            "name": "Netflix",
+            "name": "◟♯ . / netflix . !",
             "rows": [
               {
                 "lbl": "1P1U — 1 Hari",
@@ -72,7 +72,7 @@
             "notes": "📝 <b>Keterangan:</b><ul><li>1P1U = 1 profil 1 user</li><li>1P2U = 1 profil 2 user</li><li>Anti Limit = bebas limit device</li><li>Semipriv = semi private</li><li>Private = full akun sendiri</li></ul>"
           },
           {
-            "name": "Disney+",
+            "name": "◟♯ . / disney . !",
             "rows": [
               {
                 "lbl": "Sharing 6U — 1 Hari",
@@ -133,7 +133,7 @@
             ]
           },
           {
-            "name": "Viu",
+            "name": "◟♯ . / viu . !",
             "rows": [
               {
                 "lbl": "Harian — 1 Hari",
@@ -171,7 +171,7 @@
             "notes": "📝 <b>Notes:</b><ul><li>1 tahun garansi 6 bulan</li><li>Anti Limit +2k</li></ul>"
           },
           {
-            "name": "Bstation",
+            "name": "◟♯ . / bstation . !",
             "rows": [
               {
                 "lbl": "Sharing — 7 Hari",
@@ -197,8 +197,8 @@
             "notes": "📝 <b>Notes:</b><ul><li>Paket 1 tahun garansi 6 bulan</li></ul>"
           },
           {
-            "name": "Vidio",
-            "badge": "Platinum",
+            "name": "◟♯ . / vidio . !",
+            "badge": "╰┈➤ platinum",
             "rows": [
               {
                 "lbl": "Harian All Device — 1 Hari",
@@ -268,31 +268,23 @@
             "notes": "📝 <b>Notes:</b><ul><li>Garansi backfree only (bukan disable)</li><li>Akun store</li><li>Limit screen hanya 1 device untuk semua plan</li><li>Plan TV with ads, ketentuan dari Vidio langsung</li></ul>"
           },
           {
-            "name": "Amazon Prime",
+            "name": "◟♯ . / prime . !",
             "rows": [
               {
                 "lbl": "Mobile 4U — 1 Hari",
-                "price": "5k"
+                "price": "6k"
               },
               {
                 "lbl": "Mobile 4U — 3 Hari",
-                "price": "8k"
-              },
-              {
-                "lbl": "Mobile 4U — 7 Hari",
                 "price": "10k"
               },
               {
+                "lbl": "Mobile 4U — 7 Hari",
+                "price": "14k"
+              },
+              {
                 "lbl": "Sharing 4U — 1 Bulan",
-                "price": "16k"
-              },
-              {
-                "lbl": "Sharing 3U Anti Limit — 7 Hari",
-                "price": "12k"
-              },
-              {
-                "lbl": "Sharing 3U Anti Limit — 1 Bulan",
-                "price": "20k"
+                "price": "25k"
               },
               {
                 "lbl": "Private — 1 Bulan",
@@ -301,7 +293,7 @@
             ]
           },
           {
-            "name": "HBO",
+            "name": "◟♯ . / hbo . !",
             "rows": [
               {
                 "lbl": "Standart — 1 Hari Private",
@@ -346,7 +338,7 @@
             ]
           },
           {
-            "name": "Beinsport",
+            "name": "◟♯ . / beinsport . !",
             "rows": [
               {
                 "lbl": "Harga",
@@ -355,8 +347,8 @@
             ]
           },
           {
-            "name": "Vision+",
-            "badge": "private",
+            "name": "◟♯ . / vision . !",
+            "badge": "╰┈➤ private",
             "rows": [
               {
                 "lbl": "1 Bulan Pay TV Sport",
@@ -377,7 +369,7 @@
             ]
           },
           {
-            "name": "iQIYI",
+            "name": "◟♯ . / iqiyi . !",
             "rows": [
               {
                 "lbl": "Sharing Standar — 1 Bulan (PROMO)",
@@ -411,7 +403,7 @@
             "notes": "📝 <b>Notes:</b><ul><li>Garansi backfree only</li></ul>"
           },
           {
-            "name": "LOKLOK",
+            "name": "◟♯ . / loklok . !",
             "rows": [
               {
                 "lbl": "Sharing Basic 4u — 1 Hari",
@@ -465,7 +457,7 @@
             "notes": "📝 <b>Notes:</b><ul><li>Loklok (nama lama) = LOKTV/ROOKTV (nama baru)</li><li>Risiko beli sharing akun akan sering terlogout dan memerlukan OTP untuk login</li><li>Basic tidak bisa nonton di tv, standard bisa nonton di tv + short movie</li><li>Sharing 4u, limit stream 2u</li></ul>"
           },
           {
-            "name": "Crunchyroll",
+            "name": "◟♯ . / crunchyroll . !",
             "badge": "full garansi",
             "rows": [
               {
@@ -478,10 +470,10 @@
         ]
       },
       "editing": {
-        "title": "🎨 Editing App",
+        "title": "➤ Editing App",
         "apps": [
           {
-            "name": "Canva",
+            "name": "◟♯ . / canva . !",
             "rows": [
               {
                 "lbl": "Harian — 1 Hari",
@@ -774,7 +766,7 @@
         "color": "green"
       },
       "music": {
-        "title": "🎧 Music App",
+        "title": "➤ Music App",
         "apps": [
           {
             "name": "YouTube",
@@ -886,7 +878,7 @@
         "color": "blue"
       },
       "vpn": {
-        "title": "🔐 VPN App",
+        "title": "➤ VPN",
         "apps": [
           {
             "name": "HMA VPN",
@@ -1023,7 +1015,7 @@
         ]
       },
       "reading": {
-        "title": "📖 Reading App",
+        "title": "➤ Reading App",
         "apps": [
           {
             "name": "Wattpad",
@@ -1038,7 +1030,7 @@
         "color": "green"
       },
       "education": {
-        "title": "🪴 Education App",
+        "title": "➤ Education App",
         "apps": [
           {
             "name": "Duolingo",
@@ -1316,10 +1308,10 @@
     }
   },
   "education-needs": {
-    "title": "🌱 Education Needs",
+    "title": "˗ˏˋ ꒰ Education Needs ꒱ ˎˊ˗",
     "subs": {
       "edu-app": {
-        "title": "🪴 Education App",
+        "title": "➤ Education App",
         "apps": [
           {
             "name": "Duolingo",
@@ -1595,10 +1587,10 @@
         "color": "blue"
       },
       "joki-tugas": {
-        "title": "📑 Joki Tugas",
+        "title": "➤ Joki Tugas",
         "apps": [
           {
-            "name": "Joki Formatting Laporan",
+            "name": "Jasa Formatting Laporan",
             "rows": [
               {
                 "lbl": "Daftar isi / tabel / gambar / lampiran",
@@ -1644,7 +1636,7 @@
         "color": "green"
       },
       "cek-turnitin": {
-        "title": "🔍 Cek Turnitin & AI",
+        "title": "➤ Cek Turnitin & AI",
         "apps": [
           {
             "name": "Similarity Turnitin",
@@ -1707,10 +1699,10 @@
     }
   },
   "game-needs": {
-    "title": "🕹️ Game Needs",
+    "title": "˗ˏˋ ꒰ game needs ꒱ ˎˊ˗",
     "subs": {
       "game-ios": {
-        "title": "🍎 Game App (iOS)",
+        "title": "➤ Game App (iOS)",
         "apps": [
           {
             "name": "Harvest Moon",
@@ -1757,7 +1749,7 @@
         "color": "green"
       },
       "game-android": {
-        "title": "🥭 Game App (Android)",
+        "title": "➤ Game App (Android)",
         "apps": [
           {
             "name": "FNAF (all series)",
@@ -1813,7 +1805,7 @@
         "color": "green"
       },
       "topup-roblox": {
-        "title": "🔲 Topup Roblox",
+        "title": "➤ Topup Roblox",
         "apps": [
           {
             "name": "Robux Vilog",
@@ -1936,7 +1928,7 @@
         ]
       },
       "discord": {
-        "title": "💬 Discord Service",
+        "title": "➤ Discord Service",
         "apps": [
           {
             "name": "Discord Nitro",
@@ -2046,10 +2038,10 @@
     }
   },
   "social-media": {
-    "title": "☕ Social Media Needs",
+    "title": "˗ˏˋ ꒰ socmed needs ꒱ ˎˊ˗",
     "subs": {
       "sosmed": {
-        "title": "☕ Social Media Needs",
+        "title": "➤ Social Media Needs",
         "apps": [
           {
             "name": "Nomor Kosong",
