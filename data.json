@@ -69,7 +69,7 @@
                 "price": "175k"
               }
             ],
-            "notes": "📝 <b>Keterangan:</b><ul><li>1P1U = 1 profil 1 user</li><li>1P2U = 1 profil 2 user</li><li>Anti Limit = bebas limit device</li><li>Semipriv = semi private</li><li>Private = full akun sendiri</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>1P1U = 1 profil 1 user</li><li>1P2U = 1 profil 2 user</li><li>Anti Limit = bebas limit device</li><li>Semipriv = semi private</li><li>Private = full akun sendiri</li></ul>"
           },
           {
             "name": "◟♯ . / disney . !",
@@ -168,7 +168,7 @@
                 "price": "45k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>1 tahun garansi 6 bulan</li><li>Anti Limit +2k</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>1 tahun garansi 6 bulan</li><li>Anti Limit +2k</li></ul>"
           },
           {
             "name": "◟♯ . / bstation . !",
@@ -194,7 +194,7 @@
                 "price": "60k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Paket 1 tahun garansi 6 bulan</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Paket 1 tahun garansi 6 bulan</li></ul>"
           },
           {
             "name": "◟♯ . / vidio . !",
@@ -265,7 +265,7 @@
                 "price": "58k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Garansi backfree only (bukan disable)</li><li>Akun store</li><li>Limit screen hanya 1 device untuk semua plan</li><li>Plan TV with ads, ketentuan dari Vidio langsung</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Garansi backfree only (bukan disable)</li><li>Akun store</li><li>Limit screen hanya 1 device untuk semua plan</li><li>Plan TV with ads, ketentuan dari Vidio langsung</li></ul>"
           },
           {
             "name": "◟♯ . / prime . !",
@@ -400,7 +400,7 @@
                 "price": "35k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Garansi backfree only</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Garansi backfree only</li></ul>"
           },
           {
             "name": "◟♯ . / loklok . !",
@@ -454,7 +454,7 @@
                 "price": "72k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Loklok (nama lama) = LOKTV/ROOKTV (nama baru)</li><li>Risiko beli sharing akun akan sering terlogout dan memerlukan OTP untuk login</li><li>Basic tidak bisa nonton di tv, standard bisa nonton di tv + short movie</li><li>Sharing 4u, limit stream 2u</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Loklok (nama lama) = LOKTV/ROOKTV (nama baru)</li><li>Risiko beli sharing akun akan sering terlogout dan memerlukan OTP untuk login</li><li>Basic tidak bisa nonton di tv, standard bisa nonton di tv + short movie</li><li>Sharing 4u, limit stream 2u</li></ul>"
           },
           {
             "name": "◟♯ . / crunchyroll . !",
@@ -465,7 +465,7 @@
                 "price": "14k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Akun dari morii</li><li>Full garansi</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Akun dari morii</li><li>Full garansi</li></ul>"
           }
         ]
       },
@@ -528,10 +528,10 @@
                 "price": "16k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Designer +1k</li><li>Canva Head bisa invite 100 anggota</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Designer +1k</li><li>Canva Head bisa invite 100 anggota</li></ul>"
           },
           {
-            "name": "CapCut",
+            "name": "◟♯ . / capcut . !",
             "rows": [
               {
                 "lbl": "Pro Privat — 3 Hari",
@@ -580,7 +580,7 @@
             ]
           },
           {
-            "name": "Dazz Cam",
+            "name": "◟♯ . / dazzcam . !",
             "rows": [
               {
                 "lbl": "Lifetime — Garansi 6 Bulan",
@@ -597,7 +597,7 @@
             ]
           },
           {
-            "name": "Meitu",
+            "name": "◟♯ . / meitu . !",
             "rows": [
               {
                 "lbl": "VIP — 7 Hari 2U",
@@ -630,7 +630,7 @@
             ]
           },
           {
-            "name": "Wink",
+            "name": "◟♯ . / wink . !",
             "rows": [
               {
                 "lbl": "Privat Android — 3 Hari",
@@ -661,10 +661,10 @@
                 "price": "42k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Kelock = tidak ada garansi</li><li>Akun sharing history tercampur</li><li>Support Android &amp; iOS tergantung stock</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Kelock = tidak ada garansi</li><li>Akun sharing history tercampur</li><li>Support Android &amp; iOS tergantung stock</li></ul>"
           },
           {
-            "name": "ibisPaint",
+            "name": "◟♯ . / ibispaint . !",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -675,10 +675,10 @@
                 "price": "40k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Tanya stock terlebih dahulu</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Tanya stock terlebih dahulu</li></ul>"
           },
           {
-            "name": "Lightroom",
+            "name": "◟♯ . / lightroom . !",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -697,10 +697,10 @@
                 "price": "30k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Paket 1 tahun garansi 7 bulan</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Paket 1 tahun garansi 7 bulan</li></ul>"
           },
           {
-            "name": "VSCO",
+            "name": "◟♯ . / vsco . !",
             "rows": [
               {
                 "lbl": "Pro iOS — 1 Tahun",
@@ -711,10 +711,10 @@
                 "price": "16k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Garansi 6 bulan</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Garansi 6 bulan</li></ul>"
           },
           {
-            "name": "Alight Motion",
+            "name": "◟♯ . / alight motion . !",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -741,20 +741,20 @@
                 "price": "50k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Sharing 1 tahun garansi 6 bulan</li><li>Private 1 tahun garansi 6 bulan, bisa req acc sendiri</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Sharing 1 tahun garansi 6 bulan</li><li>Private 1 tahun garansi 6 bulan, bisa req acc sendiri</li></ul>"
           },
           {
-            "name": "Prequel",
+            "name": "◟♯ . / prequel . !",
             "rows": [
               {
                 "lbl": "Android — 1 Tahun",
                 "price": "30k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Garansi 6 bulan</li></ul>"
+            "note": "ⓘ <b>catatan:</b><ul><li>Garansi 6 bulan</li></ul>"
           },
           {
-            "name": "PicsArt",
+            "name": "◟♯ . / picsart . !",
             "rows": [
               {
                 "lbl": "Private — 7 Hari",
@@ -769,7 +769,7 @@
         "title": "➤ Music App",
         "apps": [
           {
-            "name": "YouTube",
+            "name": "◟♯ . / youtube . !",
             "rows": [
               {
                 "lbl": "Famplan Biasa — 1 Bulan",
@@ -816,10 +816,10 @@
                 "price": "28k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Garansi backfree only</li><li>Indplan only acc dari morii</li><li>Famplan only acc cust</li><li>Head famplan can invite 5 org</li><li>Indplan bisa akun cust FRESH ONLY</li><li>Mixplan = indplan + famplan</li><li>Famplan via invite 2x dalam setahun (acc sendiri)</li><li>Famplan akun dari morii +3k</li><li>Famplan anti limit = tanpa ganti email tiap bulan, bisa perpanjang lebih dari 2 bulan di email yang sama (wajib email yang belum pernah join famplan sebelumnya), s&amp;k berlaku</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Garansi backfree only</li><li>Indplan only acc dari morii</li><li>Famplan only acc cust</li><li>Head famplan can invite 5 org</li><li>Indplan bisa akun cust FRESH ONLY</li><li>Mixplan = indplan + famplan</li><li>Famplan via invite 2x dalam setahun (acc sendiri)</li><li>Famplan akun dari morii +3k</li><li>Famplan anti limit = tanpa ganti email tiap bulan, bisa perpanjang lebih dari 2 bulan di email yang sama (wajib email yang belum pernah join famplan sebelumnya), s&amp;k berlaku</li></ul>"
           },
           {
-            "name": "Apple Music",
+            "name": "◟♯ . / apple music . !",
             "rows": [
               {
                 "lbl": "Famplan — 1 Bulan",
@@ -846,10 +846,10 @@
                 "price": "35k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Via invite</li><li>1 akun dalam setahun hanya bisa join family plan 2x</li><li>Sebelum payment pastikan akun tidak limit dan sudah left family lama</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Via invite</li><li>1 akun dalam setahun hanya bisa join family plan 2x</li><li>Sebelum payment pastikan akun tidak limit dan sudah left family lama</li></ul>"
           },
           {
-            "name": "Spotify",
+            "name": "◟♯ . / spotify . !",
             "rows": [
               {
                 "lbl": "Famplan — 1 Hari",
@@ -872,7 +872,7 @@
                 "price": "24k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Need email cust</li><li>Akun dari morii +2k</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Need email cust</li><li>Akun dari morii +2k</li></ul>"
           }
         ],
         "color": "blue"
@@ -881,7 +881,7 @@
         "title": "➤ VPN",
         "apps": [
           {
-            "name": "HMA VPN",
+            "name": "◟♯ . / hma . !",
             "badge": "private",
             "rows": [
               {
@@ -901,10 +901,10 @@
                 "price": "35k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Wajib info device login ke morii sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Wajib info device login ke morii sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
           },
           {
-            "name": "Express VPN",
+            "name": "◟♯ . / express . !",
             "badge": "private",
             "rows": [
               {
@@ -924,10 +924,10 @@
                 "price": "35k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Wajib info device login ke morii sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Wajib info device login ke morii sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
           },
           {
-            "name": "Surfshark VPN",
+            "name": "◟♯ . / surfshark . !",
             "badge": "private",
             "rows": [
               {
@@ -937,8 +937,8 @@
             ]
           },
           {
-            "name": "Turbo VPN",
-            "badge": "private",
+            "name": "◟♯ . / turbo . !",
+            "badge": "╰┈➤ private",
             "rows": [
               {
                 "lbl": "7 Hari",
@@ -953,10 +953,10 @@
                 "price": "25k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Wajib info device login ke morii sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Wajib info device login ke morii sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
           },
           {
-            "name": "Avira Phantom VPN",
+            "name": "◟♯ . / avira phantom . !",
             "badge": "private",
             "rows": [
               {
@@ -972,10 +972,10 @@
                 "price": "45k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Wajib info device login ke morii sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Wajib info device login ke morii sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
           },
           {
-            "name": "PIA VPN",
+            "name": "◟♯ . / pia . !",
             "badge": "private",
             "rows": [
               {
@@ -991,10 +991,10 @@
                 "price": "25k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Premium (Private Internet Access)</li><li>Wajib info device login ke morii sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Premium (Private Internet Access)</li><li>Wajib info device login ke morii sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
           },
           {
-            "name": "IPVanish VPN",
+            "name": "◟♯ . / ipvanish . !",
             "badge": "private",
             "rows": [
               {
@@ -1010,7 +1010,7 @@
                 "price": "25k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Wajib info device login ke morii sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Wajib info device login ke morii sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
           }
         ]
       },
@@ -1018,7 +1018,7 @@
         "title": "➤ Reading App",
         "apps": [
           {
-            "name": "Wattpad",
+            "name": "◟♯ . / wattpad . !",
             "rows": [
               {
                 "lbl": "Harga",
@@ -1033,7 +1033,7 @@
         "title": "➤ Education App",
         "apps": [
           {
-            "name": "Duolingo",
+            "name": "◟♯ . / duolingo . !",
             "rows": [
               {
                 "lbl": "Private Famplan — 1 Bulan",
@@ -1064,10 +1064,10 @@
                 "price": "14k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Head bisa invite 5 member</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Head bisa invite 5 member</li></ul>"
           },
           {
-            "name": "Claude AI",
+            "name": "◟♯ . / claude . !",
             "rows": [
               {
                 "lbl": "Sharing 3U — 1 Hari",
@@ -1082,72 +1082,10 @@
                 "price": "40k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Support all device</li><li>Bergaransi backfree / disable</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Support all device</li><li>Bergaransi backfree / disable</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
           },
           {
             "name": "ChatGPT",
-            "rows": [
-              {
-                "lbl": "Plus Sharing (3-5U) — 1 Hari",
-                "price": "10k"
-              },
-              {
-                "lbl": "Plus Sharing (3-5U) — 3 Hari",
-                "price": "18k"
-              },
-              {
-                "lbl": "Plus Sharing (3-5U) — 5 Hari",
-                "price": "22k"
-              },
-              {
-                "lbl": "Plus Sharing (3-5U) — 7 Hari",
-                "price": "29k"
-              },
-              {
-                "lbl": "Plus Sharing (3-5U) — 1 Bulan",
-                "price": "40k"
-              },
-              {
-                "lbl": "Plus Private Nogar Strong — 1 Bulan",
-                "price": "100k"
-              },
-              {
-                "lbl": "Team/Workspace — 1 Bulan Sharing",
-                "price": "35k"
-              },
-              {
-                "lbl": "Team/Workspace — 1 Bulan Private",
-                "price": "65k"
-              },
-              {
-                "lbl": "Go — 1 Hari",
-                "price": "5k"
-              },
-              {
-                "lbl": "Go — 3 Hari",
-                "price": "10k"
-              },
-              {
-                "lbl": "Go — 7 Hari",
-                "price": "14k"
-              },
-              {
-                "lbl": "Go — 1 Bulan 5U",
-                "price": "25k"
-              },
-              {
-                "lbl": "Go — 1 Bulan Private",
-                "price": "65k"
-              },
-              {
-                "lbl": "Go — 3 Bulan Private",
-                "price": "100k"
-              }
-            ],
-            "notes": "🌾 <b>Notes:</b><ul><li>Team/Workspace pakai akun dari morii</li><li>Go 3 bulan private garansi 1 bulan</li></ul>"
-          },
-          {
-            "name": "Gemini",
             "rows": [
               {
                 "lbl": "Harga",
@@ -1156,7 +1094,16 @@
             ]
           },
           {
-            "name": "Perplexity",
+            "name": "◟♯ . / gemini . !",
+            "rows": [
+              {
+                "lbl": "Harga",
+                "price": "chat morii dulu ya"
+              }
+            ]
+          },
+          {
+            "name": "◟♯ . / perplexity . !",
             "rows": [
               {
                 "lbl": "Private — 1 Bulan",
@@ -1167,10 +1114,10 @@
                 "price": "60k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Private full garansi</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Private full garansi</li></ul>"
           },
           {
-            "name": "Grok",
+            "name": "◟♯ . / grok . !",
             "rows": [
               {
                 "lbl": "Grok AI Private — 3 Hari",
@@ -1198,10 +1145,10 @@
                 "price": "20k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Via invite</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Via invite</li></ul>"
           },
           {
-            "name": "Zoom",
+            "name": "◟♯ . / zoom . !",
             "rows": [
               {
                 "lbl": "Per Jam — 1 Jam",
@@ -1236,30 +1183,30 @@
                 "price": "20k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>1 bulan bisa ganti akun 1x</li><li>100 partisipan</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>1 bulan bisa ganti akun 1x</li><li>100 partisipan</li></ul>"
           },
           {
-            "name": "Kilonotes",
+            "name": "◟♯ . / kilonotes . !",
             "rows": [
               {
                 "lbl": "Lifetime iOS/Android",
                 "price": "30k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Garansi 6 bulan</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Garansi 6 bulan</li></ul>"
           },
           {
-            "name": "Goodnotes",
+            "name": "◟♯ . / goodnotes . !",
             "rows": [
               {
                 "lbl": "Lifetime",
                 "price": "30k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Garansi 6 bulan</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Garansi 6 bulan</li></ul>"
           },
           {
-            "name": "iLovePDF",
+            "name": "◟♯ . / ilovepdf . !",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -1272,7 +1219,7 @@
             ]
           },
           {
-            "name": "QuillBot",
+            "name": "◟♯ . / quillbot . !",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -1281,7 +1228,7 @@
             ]
           },
           {
-            "name": "Grammarly",
+            "name": "◟♯ . / grammarly . !",
             "rows": [
               {
                 "lbl": "Private — 1 Bulan",
@@ -1290,7 +1237,7 @@
             ]
           },
           {
-            "name": "CamScanner",
+            "name": "camscanner",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -1314,7 +1261,7 @@
         "title": "➤ Education App",
         "apps": [
           {
-            "name": "Duolingo",
+            "name": "◟♯ . / duolingo . !",
             "rows": [
               {
                 "lbl": "Private Famplan — 1 Bulan",
@@ -1345,10 +1292,10 @@
                 "price": "14k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Head bisa invite 5 member</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Head bisa invite 5 member</li></ul>"
           },
           {
-            "name": "Claude AI",
+            "name": "◟♯ . / claude . !",
             "rows": [
               {
                 "lbl": "Sharing 3U — 1 Hari",
@@ -1363,72 +1310,10 @@
                 "price": "40k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Support all device</li><li>Bergaransi backfree / disable</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Support all device</li><li>Bergaransi backfree / disable</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
           },
           {
-            "name": "ChatGPT",
-            "rows": [
-              {
-                "lbl": "Plus Sharing (3-5U) — 1 Hari",
-                "price": "10k"
-              },
-              {
-                "lbl": "Plus Sharing (3-5U) — 3 Hari",
-                "price": "18k"
-              },
-              {
-                "lbl": "Plus Sharing (3-5U) — 5 Hari",
-                "price": "22k"
-              },
-              {
-                "lbl": "Plus Sharing (3-5U) — 7 Hari",
-                "price": "29k"
-              },
-              {
-                "lbl": "Plus Sharing (3-5U) — 1 Bulan",
-                "price": "40k"
-              },
-              {
-                "lbl": "Plus Private Nogar Strong — 1 Bulan",
-                "price": "100k"
-              },
-              {
-                "lbl": "Team/Workspace — 1 Bulan Sharing",
-                "price": "35k"
-              },
-              {
-                "lbl": "Team/Workspace — 1 Bulan Private",
-                "price": "65k"
-              },
-              {
-                "lbl": "Go — 1 Hari",
-                "price": "5k"
-              },
-              {
-                "lbl": "Go — 3 Hari",
-                "price": "10k"
-              },
-              {
-                "lbl": "Go — 7 Hari",
-                "price": "14k"
-              },
-              {
-                "lbl": "Go — 1 Bulan 5U",
-                "price": "25k"
-              },
-              {
-                "lbl": "Go — 1 Bulan Private",
-                "price": "65k"
-              },
-              {
-                "lbl": "Go — 3 Bulan Private",
-                "price": "100k"
-              }
-            ],
-            "notes": "🌾 <b>Notes:</b><ul><li>Team/Workspace pakai akun dari morii</li><li>Go 3 bulan private garansi 1 bulan</li></ul>"
-          },
-          {
-            "name": "Gemini",
+            "name": "◟♯ . / chatgpt . !",
             "rows": [
               {
                 "lbl": "Harga",
@@ -1437,7 +1322,16 @@
             ]
           },
           {
-            "name": "Perplexity",
+            "name": "◟♯ . / gemini . !",
+            "rows": [
+              {
+                "lbl": "Harga",
+                "price": "chat morii dulu ya"
+              }
+            ]
+          },
+          {
+            "name": "◟♯ . / perplexity . !",
             "rows": [
               {
                 "lbl": "Private — 1 Bulan",
@@ -1448,7 +1342,7 @@
                 "price": "60k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Private full garansi</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Private full garansi</li></ul>"
           },
           {
             "name": "Grok",
@@ -1479,7 +1373,7 @@
                 "price": "20k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Via invite</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Via invite</li></ul>"
           },
           {
             "name": "Zoom",
@@ -1517,7 +1411,7 @@
                 "price": "20k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>1 bulan bisa ganti akun 1x</li><li>100 partisipan</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>1 bulan bisa ganti akun 1x</li><li>100 partisipan</li></ul>"
           },
           {
             "name": "Kilonotes",
@@ -1527,7 +1421,7 @@
                 "price": "30k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Garansi 6 bulan</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Garansi 6 bulan</li></ul>"
           },
           {
             "name": "Goodnotes",
@@ -1537,7 +1431,7 @@
                 "price": "30k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Garansi 6 bulan</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Garansi 6 bulan</li></ul>"
           },
           {
             "name": "iLovePDF",
@@ -1630,7 +1524,7 @@
                 "price": "10k/hal"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Materi dari customer</li><li>jika sudah ada kesepakatan order, morii tidak menerima cancel dengan syarat apapun</li><li>No refund!</li><li>Hanya menerima revisi minor max 2 kali</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Materi dari customer</li><li>jika sudah ada kesepakatan order, morii tidak menerima cancel dengan syarat apapun</li><li>No refund!</li><li>Hanya menerima revisi minor max 2 kali</li></ul>"
           }
         ],
         "color": "green"
@@ -1654,7 +1548,7 @@
                 "price": "15k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>File harus PDF (biar proses cepat)</li><li>PDF bukan hasil scan / full gambar</li><li>Diusahakan file max 5mb-an</li><li>Order wajib sebut: tampilan &amp; filter</li><li>Contoh: lama, quotes biblio ✅ atau baru, cited biblio ✅</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>File harus PDF (biar proses cepat)</li><li>PDF bukan hasil scan / full gambar</li><li>Diusahakan file max 5mb-an</li><li>Order wajib sebut: tampilan &amp; filter</li><li>Contoh: lama, quotes biblio ✅ atau baru, cited biblio ✅</li></ul>"
           },
           {
             "name": "AI Turnitin",
@@ -1664,7 +1558,7 @@
                 "price": "30k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>File harus Word .DOC, min 400 words maks 30k words</li><li>Sertakan screenshot jumlah kata</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>File harus Word .DOC, min 400 words maks 30k words</li><li>Sertakan screenshot jumlah kata</li></ul>"
           },
           {
             "name": "AI iThenticate",
@@ -1674,7 +1568,7 @@
                 "price": "25k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Kirim file .DOC Word</li><li>Hanya untuk cek <200 halaman</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Kirim file .DOC Word</li><li>Hanya untuk cek <200 halaman</li></ul>"
           },
           {
             "name": "AI GPTZero",
@@ -1692,7 +1586,7 @@
                 "price": "15k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Max 150k karakter</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Max 150k karakter</li></ul>"
           }
         ]
       }
@@ -1733,7 +1627,7 @@
                 "price": "35k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Garansi 6 bulan</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Garansi 6 bulan</li></ul>"
           },
           {
             "name": "Monument Valley",
@@ -1867,7 +1761,7 @@
                 "price": "275k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Proses 5–30 menit tergantung antrian</li><li>Sertakan backup kalau ada; kalau tidak ada boleh email tapi wajib standby</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Proses 5–30 menit tergantung antrian</li><li>Sertakan backup kalau ada; kalau tidak ada boleh email tapi wajib standby</li></ul>"
           },
           {
             "name": "Robux Gamepass",
@@ -1877,7 +1771,7 @@
                 "price": "12k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Butuh username &amp; link gamepass saja</li><li>Fast pending, robux masuk dalam 5 hari</li><li>Morii tidak kasih ss pending robux; bisa dicek mandiri</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Butuh username &amp; link gamepass saja</li><li>Fast pending, robux masuk dalam 5 hari</li><li>Morii tidak kasih ss pending robux; bisa dicek mandiri</li></ul>"
           },
           {
             "name": "Robux Visend",
@@ -1923,7 +1817,7 @@
                 "price": "160k"
               }
             ],
-            "notes": "🌾 <b>Notes:</b><ul><li>1 robux × 160 perak = Rp160 (contoh: 100 robux = 16k, dst)</li><li>Robux clean dari vilog</li><li>Sertakan display name (wajib)</li><li>Dapat screenshot</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>1 robux × 160 perak = Rp160 (contoh: 100 robux = 16k, dst)</li><li>Robux clean dari vilog</li><li>Sertakan display name (wajib)</li><li>Dapat screenshot</li></ul>"
           }
         ]
       },
@@ -2063,7 +1957,7 @@
                 "price": "5k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Social: WA, Tele, YT, IG, X, Gmail, Line, Tinder, Bubble</li><li>E-wallet: SPay, GoPay, Dana</li><li>Untuk apk lain bisa ditanyakan dulu</li><li>OTP hubungi morii</li><li>Nokos Reg luar +2k</li><li>Semua produk nokos NOGAR</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Social: WA, Tele, YT, IG, X, Gmail, Line, Tinder, Bubble</li><li>E-wallet: SPay, GoPay, Dana</li><li>Untuk apk lain bisa ditanyakan dulu</li><li>OTP hubungi morii</li><li>Nokos Reg luar +2k</li><li>Semua produk nokos NOGAR</li></ul>"
           },
           {
             "name": "Coinline",
@@ -2117,7 +2011,7 @@
                 "price": "198k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Dikirim via gift</li><li>Fast gift, proses 1–5 menit</li><li>Butuh link idline/no.hp &amp; link sticker/theme</li><li>Nominal yang tidak ada bisa ditanyakan ke room chat</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Dikirim via gift</li><li>Fast gift, proses 1–5 menit</li><li>Butuh link idline/no.hp &amp; link sticker/theme</li><li>Nominal yang tidak ada bisa ditanyakan ke room chat</li></ul>"
           },
           {
             "name": "Teleprem",
@@ -2144,7 +2038,7 @@
                 "price": "525k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Avail bulk acc (bisa lebih murah)</li><li>Pemakaian pribadi &amp; no luar kena fee (+2k)</li><li>Hanya bisa renewal ketika masa langganan sudah habis</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Avail bulk acc (bisa lebih murah)</li><li>Pemakaian pribadi &amp; no luar kena fee (+2k)</li><li>Hanya bisa renewal ketika masa langganan sudah habis</li></ul>"
           },
           {
             "name": "Instagram",
@@ -2194,7 +2088,7 @@
                 "price": "24k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Berlaku kelipatan</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Berlaku kelipatan</li></ul>"
           },
           {
             "name": "TikTok",
@@ -2232,7 +2126,7 @@
                 "price": "6k"
               }
             ],
-            "notes": "📝 <b>Notes:</b><ul><li>Berlaku kelipatan</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Berlaku kelipatan</li></ul>"
           }
         ]
       }
