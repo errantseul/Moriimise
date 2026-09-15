@@ -1071,7 +1071,11 @@
             "rows": [
               {
                 "lbl": "Sharing 3U — 1 Hari",
-                "price": "28k"
+                "price": "32k"
+              },
+              {
+                "lbl": "Sharing 3U — 7 Hari",
+                "price": "70k"
               },
               {
                 "lbl": "Sharing 5U — 1 Bulan",
@@ -1079,19 +1083,72 @@
               },
               {
                 "lbl": "Private — 1 Hari",
-                "price": "40k"
+                "price": "50k"
               }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Support all device</li><li>Bergaransi backfree / disable</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
           },
           {
-            "name": "ChatGPT",
+            "name": "◟♯ . / chatgpt . !",
             "rows": [
               {
-                "lbl": "Harga",
-                "price": "chat morii dulu ya"
+                "lbl": "Sharing 8U — 1 Hari",
+                "price": "12k"
+              },
+              {
+                "lbl": "Sharing 8U — 3 Hari",
+                "price": "18k"
+              },
+              {
+                "lbl": "Sharing 8U — 7 Hari",
+                "price": "24k"
+              },
+              {
+                "lbl": "Sharing 8U — 14 Hari",
+                "price": "35k"
+              },
+              {
+                "lbl": "Sharing 8U — 1 Bulan",
+                "price": "54k"
+              },
+              {
+                "lbl": "Sharing 5U — 1 Hari",
+                "price": "14k"
+              },
+              {
+                "lbl": "Sharing 5U — 3 Hari",
+                "price": "20k"
+              },
+              {
+                "lbl": "Sharing 5U — 7 Hari",
+                "price": "28k"
+              },
+              {
+                "lbl": "Sharing 5U — 14 Hari",
+                "price": "40k"
+              },
+              {
+                "lbl": "Sharing 5U — 1 Bulan",
+                "price": "65k"
+              },
+              {
+                "lbl": "Sharing 3U — 1 Hari",
+                "price": "20k"
+              },
+              {
+                "lbl": "Sharing 3U — 3 Hari",
+                "price": "28k"
+              },
+              {
+                "lbl": "Sharing 3U — 7 Hari",
+                "price": "38k"
+              },
+              {
+                "lbl": "Sharing 3U — 1 Bulan",
+                "price": "115k"
               }
-            ]
+            ],
+            "notes": "ⓘ <b>catatan:</b><ul><li>Harga tergantung demand dan stok</li><li>Garansi deactive & bf</li><li>fixing garansi 1 x 24 jam, max 7 hari jika massal</li></ul>"
           },
           {
             "name": "◟♯ . / gemini . !",
@@ -1316,10 +1373,63 @@
             "name": "◟♯ . / chatgpt . !",
             "rows": [
               {
-                "lbl": "Harga",
-                "price": "chat morii dulu ya"
+                "lbl": "Sharing 8U — 1 Hari",
+                "price": "12k"
+              },
+              {
+                "lbl": "Sharing 8U — 3 Hari",
+                "price": "18k"
+              },
+              {
+                "lbl": "Sharing 8U — 7 Hari",
+                "price": "24k"
+              },
+              {
+                "lbl": "Sharing 8U — 14 Hari",
+                "price": "35k"
+              },
+              {
+                "lbl": "Sharing 8U — 1 Bulan",
+                "price": "54k"
+              },
+              {
+                "lbl": "Sharing 5U — 1 Hari",
+                "price": "14k"
+              },
+              {
+                "lbl": "Sharing 5U — 3 Hari",
+                "price": "20k"
+              },
+              {
+                "lbl": "Sharing 5U — 7 Hari",
+                "price": "28k"
+              },
+              {
+                "lbl": "Sharing 5U — 14 Hari",
+                "price": "40k"
+              },
+              {
+                "lbl": "Sharing 5U — 1 Bulan",
+                "price": "65k"
+              },
+              {
+                "lbl": "Sharing 3U — 1 Hari",
+                "price": "20k"
+              },
+              {
+                "lbl": "Sharing 3U — 3 Hari",
+                "price": "28k"
+              },
+              {
+                "lbl": "Sharing 3U — 7 Hari",
+                "price": "38k"
+              },
+              {
+                "lbl": "Sharing 3U — 1 Bulan",
+                "price": "115k"
               }
-            ]
+            ],
+            "notes": "ⓘ <b>catatan:</b><ul><li>Harga tergantung demand dan stok</li><li>Garansi deactive & bf</li><li>fixing garansi 1 x 24 jam, max 7 hari jika massal</li></ul>"
           },
           {
             "name": "◟♯ . / gemini . !",
