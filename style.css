@@ -303,6 +303,25 @@ body{
   letter-spacing:.3px;
 }
 
+.music-player{
+  margin:0 20px 18px;
+  padding:14px 16px;
+  border:2px dashed var(--pink);
+  border-radius:20px;
+  background:linear-gradient(180deg,#fff,var(--pink-soft));
+  text-align:center;
+}
+.music-player .mp-label{
+  font-family:'Parisienne',cursive;
+  font-size:22px;
+  color:var(--mauve);
+  margin-bottom:8px;
+}
+.music-player iframe{
+  border-radius:12px;
+  display:block;
+}
+
 /* ============ Responsive ============ */
 @media (max-width:700px){
   .content{grid-template-columns:1fr;}
