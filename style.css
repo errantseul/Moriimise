@@ -304,20 +304,16 @@ body{
 }
 
 .music-player{
-  margin:0 50px 18px;
+  margin:0 20px 18px 20px;
   padding:14px 16px;
   border:2px dashed var(--pink);
   border-radius:20px;
   background:linear-gradient(180deg,#fff,var(--pink-soft));
   text-align:center;
-}
-.music-player .mp-label{
-  font-family:'Parisienne',cursive;
-  font-size:22px;
-  color:var(--mauve);
-  margin-bottom:8px;
+  box-sizing:border-box;
 }
 .music-player iframe{
+  width:100%;
   border-radius:12px;
   display:block;
 }
