@@ -304,7 +304,7 @@ body{
 }
 
 .music-player{
-  margin:0 20px 18px;
+  margin:0 50px 18px;
   padding:14px 16px;
   border:2px dashed var(--pink);
   border-radius:20px;
