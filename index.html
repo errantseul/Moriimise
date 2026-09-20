@@ -493,7 +493,7 @@ sss
     const rows = a.rows.map(r=>
       `<div class="prow"><span class="lbl">${esc(r.lbl)}</span><span class="price">${esc(r.price)}</span></div>`
     ).join('');
-    const badge = a.badge ? `<span class="note-tag">・・・・・ ${esc(a.badge)}</span><br>` : '';
+    const badge = a.badge ? `<span class="note-tag"> ${esc(a.badge)}</span><br>` : '';
     const notes = a.notes ? `<div class="pnotes">${a.notes}</div>` : '';
     return `<div class="panel">
       <button class="backbtn" data-back="1">‹ kembali</button>
