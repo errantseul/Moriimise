@@ -7,6 +7,7 @@
         "apps": [
           {
             "name": "◟♯ . / netflix . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "1P1U — 1 Hari",
@@ -14,19 +15,19 @@
               },
               {
                 "lbl": "1P1U — 3 Hari",
-                "price": "10k"
-              },
-              {
-                "lbl": "1P1U — 5 Hari",
                 "price": "12k"
               },
               {
-                "lbl": "1P1U — 7 Hari",
+                "lbl": "1P1U — 5 Hari",
                 "price": "14k"
               },
               {
+                "lbl": "1P1U — 7 Hari",
+                "price": "18k"
+              },
+              {
                 "lbl": "1P1U — 14 Hari",
-                "price": "26k"
+                "price": "30k"
               },
               {
                 "lbl": "1P1U — 1 Bulan",
@@ -34,11 +35,11 @@
               },
               {
                 "lbl": "1P2U — 7 Hari",
-                "price": "12k"
+                "price": "15k"
               },
               {
                 "lbl": "1P2U — 1 Bulan",
-                "price": "25k"
+                "price": "30k"
               },
               {
                 "lbl": "Anti Limit — 1 Hari",
@@ -46,19 +47,19 @@
               },
               {
                 "lbl": "Anti Limit — 3 Hari",
-                "price": "12k"
+                "price": "15k"
               },
               {
                 "lbl": "Anti Limit — 7 Hari",
-                "price": "16k"
+                "price": "20k"
               },
               {
                 "lbl": "Anti Limit — 1 Bulan",
-                "price": "50k"
+                "price": "60k"
               },
               {
                 "lbl": "Semipriv — 1 Bulan",
-                "price": "45k"
+                "price": "50k"
               },
               {
                 "lbl": "Private — 7 Hari",
@@ -73,6 +74,7 @@
           },
           {
             "name": "◟♯ . / disney . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Sharing 6U — 1 Hari",
@@ -80,60 +82,61 @@
               },
               {
                 "lbl": "Sharing 6U — 2 Hari",
-                "price": "6k"
-              },
-              {
-                "lbl": "Sharing 6U — 3 Hari",
                 "price": "8k"
               },
               {
+                "lbl": "Sharing 6U — 3 Hari",
+                "price": "12k"
+              },
+              {
                 "lbl": "Sharing 6U — 5 Hari",
-                "price": "10k"
+                "price": "15k"
               },
               {
                 "lbl": "Sharing 6U — 7 Hari",
-                "price": "12k"
-              },
-              {
-                "lbl": "Sharing 6U — 1 Bulan",
-                "price": "28k"
-              },
-              {
-                "lbl": "Sharing 3U Anlim — 1 Hari",
-                "price": "6k"
-              },
-              {
-                "lbl": "Sharing 3U Anlim — 2 Hari",
-                "price": "10k"
-              },
-              {
-                "lbl": "Sharing 3U Anlim — 3 Hari",
-                "price": "12k"
-              },
-              {
-                "lbl": "Sharing 3U Anlim — 5 Hari",
-                "price": "16k"
-              },
-              {
-                "lbl": "Sharing 3U Anlim — 7 Hari",
                 "price": "20k"
               },
               {
+                "lbl": "Sharing 6U — 1 Bulan",
+                "price": "35k"
+              },
+              {
+                "lbl": "Sharing 3U Anlim — 1 Hari",
+                "price": "10k"
+              },
+              {
+                "lbl": "Sharing 3U Anlim — 2 Hari",
+                "price": "12k"
+              },
+              {
+                "lbl": "Sharing 3U Anlim — 3 Hari",
+                "price": "15k"
+              },
+              {
+                "lbl": "Sharing 3U Anlim — 5 Hari",
+                "price": "20k"
+              },
+              {
+                "lbl": "Sharing 3U Anlim — 7 Hari",
+                "price": "25k"
+              },
+              {
                 "lbl": "Sharing 3U Anlim — 1 Bulan",
-                "price": "55k"
+                "price": "60k"
               },
               {
                 "lbl": "Private Basic — 1 Bulan",
-                "price": "75k"
+                "price": "90k"
               },
               {
                 "lbl": "Private Prem — 1 Bulan",
-                "price": "140k"
+                "price": "160k"
               }
             ]
           },
           {
             "name": "◟♯ . / viu . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Harian — 1 Hari",
@@ -141,72 +144,81 @@
               },
               {
                 "lbl": "Harian — 3 Hari",
-                "price": "2k"
+                "price": "3k"
               },
               {
                 "lbl": "Harian — 7 Hari",
-                "price": "6k"
+                "price": "7k"
               },
               {
                 "lbl": "Private — 1 Bulan",
-                "price": "8k"
+                "price": "10k"
               },
               {
                 "lbl": "Private — 2 Bulan",
-                "price": "14k"
+                "price": "15k"
               },
               {
                 "lbl": "Private — 3 Bulan",
-                "price": "22k"
+                "price": "20k"
               },
               {
                 "lbl": "Private — 6 Bulan",
-                "price": "36k"
+                "price": "35k"
               },
               {
                 "lbl": "Private — 1 Tahun",
                 "price": "45k"
               }
             ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>1 tahun garansi 6 bulan</li><li>Anti Limit +2k</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>1 tahun garansi 6 bulan</li><li>Anti Limit +5k</li></ul>"
           },
           {
             "name": "◟♯ . / bstation . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
-                "lbl": "Sharing — 7 Hari",
+                "lbl": "Sharing 5u — 1 Hari",
                 "price": "5k"
               },
               {
-                "lbl": "Sharing — 1 Bulan",
-                "price": "10k"
+                "lbl": "Sharing 5u — 3 Hari",
+                "price": "8k"
+              },
+              {
+                "lbl": "Sharing 5u — 7 Hari",
+                "price": "12k"
+              },
+              {
+                "lbl": "Sharing 5u — 1 Bulan",
+                "price": "15k"
               },
               {
                 "lbl": "Sharing — 3 Bulan",
-                "price": "28k"
+                "price": "25k"
               },
               {
                 "lbl": "Sharing — 1 Tahun",
-                "price": "35k"
+                "price": "45k"
               },
               {
                 "lbl": "Private — 1 Bulan",
-                "price": "60k"
+                "price": "40k"
               }
             ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>Paket 1 tahun garansi 6 bulan</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Plan 1 tahun garansi 6 bulan</li></ul>"
           },
           {
             "name": "◟♯ . / vidio . !",
-            "badge": "╰┈➤ platinum",
+            "badge": "╰┈➤ plan platinum | all garansi backfree only",
             "rows": [
               {
                 "lbl": "Harian All Device — 1 Hari",
-                "price": "10k"
+                "price": "12k"
               },
               {
                 "lbl": "Harian All Device — 3 Hari",
-                "price": "15k"
+                "price": "18k"
               },
               {
                 "lbl": "Harian All Device — 5 Hari",
@@ -214,15 +226,15 @@
               },
               {
                 "lbl": "Harian All Device — 7 Hari",
-                "price": "24k"
+                "price": "25k"
               },
               {
                 "lbl": "Harian Mobile — 1 Hari",
-                "price": "8k"
+                "price": "10k"
               },
               {
                 "lbl": "Harian Mobile — 3 Hari",
-                "price": "12k"
+                "price": "15k"
               },
               {
                 "lbl": "Harian Mobile — 5 Hari",
@@ -234,19 +246,19 @@
               },
               {
                 "lbl": "All Device — 1 Bulan Sharing 2U",
-                "price": "28k"
+                "price": "35k"
               },
               {
                 "lbl": "All Device — 1 Bulan Private",
-                "price": "48k"
+                "price": "55k"
               },
               {
                 "lbl": "Mobile Only — 1 Bulan Sharing 2U",
-                "price": "25k"
+                "price": "30k"
               },
               {
                 "lbl": "Mobile Only — 1 Bulan Private",
-                "price": "35k"
+                "price": "40k"
               },
               {
                 "lbl": "TV Only — 1 Bulan Private",
@@ -254,7 +266,7 @@
               },
               {
                 "lbl": "TV Only — 3 Bulan Private",
-                "price": "40k"
+                "price": "35k"
               },
               {
                 "lbl": "TV Only — 6 Bulan Private",
@@ -265,35 +277,58 @@
                 "price": "58k"
               }
             ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>Garansi backfree only (bukan disable)</li><li>Akun store</li><li>Limit screen hanya 1 device untuk semua plan</li><li>Plan TV with ads, ketentuan dari Vidio langsung</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Plan Harian Private Only</li><li>Akun store</li><li>Limit screen hanya 1 device untuk semua plan</li><li>Plan TV with ads, ketentuan dari Vidio langsung</li><li>Durasi 1 tahun garansi 6 bulan</li></ul>"
           },
           {
             "name": "◟♯ . / prime . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
-                "lbl": "Mobile 4U — 1 Hari",
-                "price": "6k"
+                "lbl": "Sharing 4U — 1 Hari",
+                "price": "4k"
               },
               {
-                "lbl": "Mobile 4U — 3 Hari",
-                "price": "10k"
+                "lbl": "Sharing 4U — 3 Hari",
+                "price": "8k"
               },
               {
-                "lbl": "Mobile 4U — 7 Hari",
-                "price": "14k"
+                "lbl": "Sharing 4U — 7 Hari",
+                "price": "12k"
               },
               {
                 "lbl": "Sharing 4U — 1 Bulan",
-                "price": "25k"
+                "price": "15k"
+              },
+              {
+                "lbl": "Sharing 3U (ANLIM) — 1 Hari",
+                "price": "8k"
+              },
+              {
+                "lbl": "Sharing 3U (ANLIM )— 3 Hari",
+                "price": "10k"
+              },
+              {
+                "lbl": "Sharing 3U (ANLIM) — 5 Hari",
+                "price": "12k"
+              },
+              {
+                "lbl": "Sharing 3U (ANLIM) — 7 Hari",
+                "price": "16k"
+              },
+              {
+                "lbl": "Sharing 3U (ANLIM) — 1 Bulan",
+                "price": "20k"
               },
               {
                 "lbl": "Private — 1 Bulan",
-                "price": "30k"
+                "price": "35k"
               }
-            ]
+            ],
+             "notes": "ⓘ <b>catatan:</b><ul><li>Device Pc & TV ambil 3U</li><li>4U Harian hanya bisa di Hp & Ipad</li></ul>"
           },
           {
             "name": "◟♯ . / hbo . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Standart — 1 Hari Private",
@@ -339,6 +374,7 @@
           },
           {
             "name": "◟♯ . / beinsport . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Harga",
@@ -348,7 +384,7 @@
           },
           {
             "name": "◟♯ . / vision . !",
-            "badge": "╰┈➤ private",
+            "badge": "╰┈➤ plan private | all garansi backfree only",
             "rows": [
               {
                 "lbl": "1 Bulan Pay TV Sport",
@@ -370,40 +406,58 @@
           },
           {
             "name": "◟♯ . / iqiyi . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
-                "lbl": "Sharing Standar — 1 Bulan (PROMO)",
+                "lbl": "Sharing Standar 3u — 1 Hari",
+                "price": "6k"
+              },
+              {
+                "lbl": "Sharing Standar 3u — 3 Hari",
+                "price": "10k"
+              },
+              {
+                "lbl": "Sharing Standar 3u — 5 Hari",
+                "price": "12k"
+              },
+              {
+                "lbl": "Sharing Standar 3u — 1 Bulan",
+                "price": "20k"
+              },
+              {
+                "lbl": "Sharing Premium 6u — 1 Hari",
+                "price": "8k"
+              },
+              {
+                "lbl": "Sharing Premium 6u — 3 Hari",
+                "price": "12k"
+              },
+              {
+                "lbl": "Sharing Premium 6u — 5 Hari",
+                "price": "16k"
+              },
+              {
+                "lbl": "Sharing Premium 6u — 7 Hari",
                 "price": "18k"
               },
               {
-                "lbl": "Sharing Standar — 3 Bulan",
+                "lbl": "Sharing Premium 6u — 3 Bulan",
                 "price": "26k"
               },
               {
-                "lbl": "Sharing Standar — 1 Tahun",
+                "lbl": "Private Standar — 1 Bulan",
                 "price": "40k"
               },
               {
-                "lbl": "Sharing Premium — 1 Bulan (PROMO)",
-                "price": "22k"
-              },
-              {
-                "lbl": "Sharing Premium — 1 Bulan Anlim",
-                "price": "28k"
-              },
-              {
-                "lbl": "Sharing Premium — 1 Tahun",
-                "price": "45k"
-              },
-              {
-                "lbl": "Private Standard — 1 Bulan",
-                "price": "35k"
+                "lbl": "Private Premium — 1 Bulan",
+                "price": "60k"
               }
             ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>Garansi backfree only</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Limit stream standar 1u & limit sream premium 3u</li><li>Order akun privat dari morii bisa request usn email/password tergantung stok</li></ul>"
           },
           {
             "name": "◟♯ . / loklok . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Sharing Basic 4u — 1 Hari",
@@ -427,15 +481,15 @@
               },
               {
                 "lbl": "Private Basic — 7 Hari",
-                "price": "30k"
+                "price": "20k"
               },
               {
                 "lbl": "Private Basic — 14 Hari",
-                "price": "45k"
+                "price": "40k"
               },
               {
                 "lbl": "Private Basic — 1 Bulan",
-                "price": "58k"
+                "price": "60k"
               },
               {
                 "lbl": "Sharing Standard 3u — 14 Hari",
@@ -451,21 +505,45 @@
               },
               {
                 "lbl": "Private Standard — 1 Bulan",
-                "price": "72k"
+                "price": "80k"
               }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Loklok (nama lama) = LOKTV/ROOKTV (nama baru)</li><li>Risiko beli sharing akun akan sering terlogout dan memerlukan OTP untuk login</li><li>Basic tidak bisa nonton di tv, standard bisa nonton di tv + short movie</li><li>Sharing 4u, limit stream 2u</li></ul>"
           },
           {
             "name": "◟♯ . / crunchyroll . !",
-            "badge": "full garansi",
+             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
-                "lbl": "Sharing — 1 Bulan",
-                "price": "14k"
+                "lbl": "Sharing 2-3u — 7 Hari",
+                "price": "12k"
+              },
+              {
+                "lbl": "Sharing 2-3u — 14 Hari",
+                "price": "16k"
+              },
+              {
+                "lbl": "Sharing 2-3u — 1 Bulan",
+                "price": "20k"
+              },
+              {
+                "lbl": "Private — 7 Hari",
+                "price": "18k"
+              },
+              {
+                "lbl": "Private — 14 Hari",
+                "price": "22k"
+              },
+              {
+                "lbl": "Private — 1 Bulan",
+                "price": "32k"
+              },
+              {
+                "lbl": "Private — 2 Bulan",
+                "price": "54k"
               }
             ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>Akun dari morii</li><li>Full garansi</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Order akun private bisa login 4 dev sekaligus</li><li>Order durasi 1 bulan akun auto-renew, jika akun tidak auto-renew, segera kabari morii</li></ul>"
           }
         ]
       },
@@ -474,6 +552,7 @@
         "apps": [
           {
             "name": "◟♯ . / canva . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Harian — 1 Hari",
@@ -532,8 +611,9 @@
           },
           {
             "name": "◟♯ . / capcut . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
-              {
+              {34
                 "lbl": "Pro Privat — 3 Hari",
                 "price": "10k"
               },
@@ -566,21 +646,26 @@
                 "price": "26k"
               },
               {
-                "lbl": "Standar — 1 Minggu Sharing",
+                "lbl": "Standar Sharing — 3 Hari",
+                "price": "12k"
+              },
+              {
+                "lbl": "Standar Sharing — 7 Hari",
                 "price": "15k"
               },
               {
-                "lbl": "Standar — 2 Minggu Sharing 3U",
-                "price": "18k"
+                "lbl": "Standar Private — 3 Hari",
+                "price": "17k"
               },
               {
-                "lbl": "Standar — 2 Minggu Privat",
+                "lbl": "Standar Private — 7 Hari",
                 "price": "20k"
               }
             ]
           },
           {
             "name": "◟♯ . / dazzcam . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Lifetime — Garansi 6 Bulan",
@@ -598,6 +683,7 @@
           },
           {
             "name": "◟♯ . / meitu . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "VIP — 7 Hari 2U",
@@ -631,6 +717,7 @@
           },
           {
             "name": "◟♯ . / wink . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Privat Android — 3 Hari",
@@ -665,6 +752,7 @@
           },
           {
             "name": "◟♯ . / ibispaint . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -679,6 +767,7 @@
           },
           {
             "name": "◟♯ . / lightroom . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -701,6 +790,7 @@
           },
           {
             "name": "◟♯ . / vsco . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Pro iOS — 1 Tahun",
@@ -715,6 +805,7 @@
           },
           {
             "name": "◟♯ . / alight motion . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -755,6 +846,7 @@
           },
           {
             "name": "◟♯ . / picsart . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Private — 7 Hari",
@@ -770,14 +862,15 @@
         "apps": [
           {
             "name": "◟♯ . / youtube . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Famplan Biasa — 1 Bulan",
-                "price": "10k"
+                "price": "12k"
               },
               {
                 "lbl": "Famplan Biasa — 2 Bulan (renew)",
-                "price": "16k"
+                "price": "20k"
               },
               {
                 "lbl": "Famplan Anti Limit — 1 Bulan Pertama",
@@ -785,7 +878,7 @@
               },
               {
                 "lbl": "Famplan Anti Limit — Perpanjangan",
-                "price": "10,5k"
+                "price": "12k"
               },
               {
                 "lbl": "Indplan acc c fresh — 1 Bulan",
@@ -801,25 +894,26 @@
               },
               {
                 "lbl": "Indplan — 3 Bulan (renew)",
-                "price": "38k"
+                "price": "45k"
               },
               {
                 "lbl": "Indplan — 3 Bulan (norenew nogar)",
-                "price": "40k"
+                "price": "60k"
               },
               {
                 "lbl": "Mixplan — 2 Bulan",
-                "price": "20k"
+                "price": "30k"
               },
               {
                 "lbl": "Mixplan — 3 Bulan",
-                "price": "28k"
+                "price": "45k"
               }
             ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>Garansi backfree only</li><li>Indplan only acc dari morii</li><li>Famplan only acc cust</li><li>Head famplan can invite 5 org</li><li>Indplan bisa akun cust FRESH ONLY</li><li>Mixplan = indplan + famplan</li><li>Famplan via invite 2x dalam setahun (acc sendiri)</li><li>Famplan akun dari morii +3k</li><li>Famplan anti limit = tanpa ganti email tiap bulan, bisa perpanjang lebih dari 2 bulan di email yang sama (wajib email yang belum pernah join famplan sebelumnya), s&amp;k berlaku</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Indplan only acc dari morii</li><li>Famplan only acc cust</li><li>Head famplan can invite 5 org</li><li>Indplan bisa akun cust FRESH ONLY</li><li>Mixplan = indplan + famplan</li><li>Famplan via invite 2x dalam setahun (acc sendiri)</li><li>Famplan akun dari morii +3k</li><li>Famplan anti limit = tanpa ganti email tiap bulan, bisa perpanjang lebih dari 2 bulan di email yang sama (wajib email yang belum pernah join famplan sebelumnya), s&amp;k berlaku</li></ul>"
           },
           {
             "name": "◟♯ . / apple music . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Famplan — 1 Bulan",
@@ -850,6 +944,7 @@
           },
           {
             "name": "◟♯ . / spotify . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Famplan — 1 Hari",
@@ -882,7 +977,7 @@
         "apps": [
           {
             "name": "◟♯ . / hma . !",
-            "badge": "private",
+            "badge": "╰┈➤ plan private | all garansi backfree only",
             "rows": [
               {
                 "lbl": "7 Hari",
@@ -905,7 +1000,7 @@
           },
           {
             "name": "◟♯ . / express . !",
-            "badge": "private",
+             "badge": "╰┈➤ plan private | all garansi backfree only",,
             "rows": [
               {
                 "lbl": "7 Hari",
@@ -928,7 +1023,7 @@
           },
           {
             "name": "◟♯ . / surfshark . !",
-            "badge": "private",
+             "badge": "╰┈➤ plan private | all garansi backfree only",
             "rows": [
               {
                 "lbl": "Harga",
@@ -938,7 +1033,7 @@
           },
           {
             "name": "◟♯ . / turbo . !",
-            "badge": "╰┈➤ private",
+            "badge": "╰┈➤ plan private | all garansi backfree only",
             "rows": [
               {
                 "lbl": "7 Hari",
@@ -957,7 +1052,7 @@
           },
           {
             "name": "◟♯ . / avira phantom . !",
-            "badge": "private",
+            "badge": "╰┈➤ plan private | all garansi backfree only",
             "rows": [
               {
                 "lbl": "1 Bulan",
@@ -976,7 +1071,7 @@
           },
           {
             "name": "◟♯ . / pia . !",
-            "badge": "private",
+            "badge": "╰┈➤ plan private | all garansi backfree only",
             "rows": [
               {
                 "lbl": "7 Hari",
@@ -995,7 +1090,7 @@
           },
           {
             "name": "◟♯ . / ipvanish . !",
-            "badge": "private",
+            "badge": "╰┈➤ plan private| all garansi backfree only",
             "rows": [
               {
                 "lbl": "7 Hari",
@@ -1019,6 +1114,7 @@
         "apps": [
           {
             "name": "◟♯ . / wattpad . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Harga",
@@ -1034,6 +1130,7 @@
         "apps": [
           {
             "name": "◟♯ . / duolingo . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Private Famplan — 1 Bulan",
@@ -1068,6 +1165,7 @@
           },
           {
             "name": "◟♯ . / claude . !",
+            "badge": "╰┈➤ all garansi backfree / disable only",
             "rows": [
               {
                 "lbl": "Sharing 3U — 1 Hari",
@@ -1086,10 +1184,11 @@
                 "price": "50k"
               }
             ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>Support all device</li><li>Bergaransi backfree / disable</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Support all device</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
           },
           {
             "name": "◟♯ . / chatgpt . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Sharing 8U — 1 Hari",
@@ -1152,6 +1251,7 @@
           },
           {
             "name": "◟♯ . / gemini . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Harga",
@@ -1161,6 +1261,7 @@
           },
           {
             "name": "◟♯ . / perplexity . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Private — 1 Bulan",
@@ -1175,6 +1276,7 @@
           },
           {
             "name": "◟♯ . / grok . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Grok AI Private — 3 Hari",
@@ -1196,6 +1298,7 @@
           },
           {
             "name": "MS365",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -1244,6 +1347,7 @@
           },
           {
             "name": "◟♯ . / kilonotes . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Lifetime iOS/Android",
@@ -1254,6 +1358,7 @@
           },
           {
             "name": "◟♯ . / goodnotes . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Lifetime",
@@ -1264,6 +1369,7 @@
           },
           {
             "name": "◟♯ . / ilovepdf . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -1277,6 +1383,7 @@
           },
           {
             "name": "◟♯ . / quillbot . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -1286,6 +1393,7 @@
           },
           {
             "name": "◟♯ . / grammarly . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Private — 1 Bulan",
@@ -1295,6 +1403,7 @@
           },
           {
             "name": "camscanner",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -1319,6 +1428,7 @@
         "apps": [
           {
             "name": "◟♯ . / duolingo . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Private Famplan — 1 Bulan",
@@ -1353,6 +1463,7 @@
           },
           {
             "name": "◟♯ . / claude . !",
+            "badge": "╰┈➤ all garansi backfree / disable only",
             "rows": [
               {
                 "lbl": "Sharing 3U — 1 Hari",
@@ -1371,10 +1482,11 @@
                 "price": "50k"
               }
             ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>Support all device</li><li>Bergaransi backfree / disable</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Support all device</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
           },
           {
             "name": "◟♯ . / chatgpt . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Sharing 8U — 1 Hari",
@@ -1437,6 +1549,7 @@
           },
           {
             "name": "◟♯ . / gemini . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Harga",
@@ -1446,6 +1559,7 @@
           },
           {
             "name": "◟♯ . / perplexity . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Private — 1 Bulan",
@@ -1460,6 +1574,7 @@
           },
           {
             "name": "◟♯ . / grok . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Grok AI Private — 3 Hari",
@@ -1481,6 +1596,7 @@
           },
           {
             "name": "◟♯ . / ms365 . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -1529,6 +1645,7 @@
           },
           {
             "name": "◟♯ . / kilonotes . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Lifetime iOS/Android",
@@ -1539,6 +1656,7 @@
           },
           {
             "name": "◟♯ . / goodnotes . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Lifetime",
@@ -1562,6 +1680,7 @@
           },
           {
             "name": "◟♯ . / quillbot . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -1571,6 +1690,7 @@
           },
           {
             "name": "Grammarly",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Private — 1 Bulan",
@@ -1580,6 +1700,7 @@
           },
           {
             "name": "◟♯ . / camscanner . !",
+            "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
@@ -1714,7 +1835,7 @@
         "apps": [
           {
             "name": "⌗ᆞ› harvest moon ꒰ ꒱",
-            "badge": "lifetime",
+            "badge": "╰┈➤ lifetime",
             "rows": [
               {
                 "lbl": "Lifetime",
@@ -1724,7 +1845,7 @@
           },
           {
             "name": "⌗ᆞ› pocket city 1 & 2 ꒰ ꒱",
-            "badge": "lifetime",
+            "badge": "╰┈➤ lifetime",
             "rows": [
               {
                 "lbl": "Lifetime",
@@ -1734,7 +1855,7 @@
           },
           {
             "name": "⌗ᆞ› papa's to go 17 games ꒰ ꒱",
-            "badge": "lifetime",
+            "badge": "╰┈➤ lifetime",
             "rows": [
               {
                 "lbl": "Lifetime",
@@ -1745,7 +1866,7 @@
           },
           {
             "name": "⌗ᆞ› monument valley ꒰ ꒱",
-            "badge": "lifetime",
+            "badge": "╰┈➤ lifetime",
             "rows": [
               {
                 "lbl": "Lifetime",
@@ -1761,7 +1882,7 @@
         "apps": [
           {
             "name": "⌗ᆞ› fnaf all series ꒰ ꒱",
-            "badge": "lifetime",
+            "badge": "╰┈➤ lifetime",
             "rows": [
               {
                 "lbl": "Lifetime",
@@ -1771,7 +1892,7 @@
           },
           {
             "name": "⌗ᆞ› minecraft ꒰ ꒱",
-            "badge": "lifetime",
+            "badge": "╰┈➤ lifetime",
             "rows": [
               {
                 "lbl": "Lifetime",
@@ -1781,7 +1902,7 @@
           },
           {
             "name": "⌗ᆞ› stardew valley ꒰ ꒱",
-            "badge": "lifetime",
+            "badge": "╰┈➤ lifetime",
             "rows": [
               {
                 "lbl": "Lifetime",
@@ -1791,7 +1912,7 @@
           },
           {
             "name": "⌗ᆞ› papa's to go 17 games ꒰ ꒱",
-            "badge": "lifetime",
+            "badge": "╰┈➤ lifetime",
             "rows": [
               {
                 "lbl": "Lifetime",
@@ -1801,7 +1922,7 @@
           },
           {
             "name": "⌗ᆞ› human fall flat ꒰ ꒱",
-            "badge": "lifetime",
+            "badge": "╰┈➤ lifetime",
             "rows": [
               {
                 "lbl": "Lifetime",
