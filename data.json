@@ -1373,6 +1373,37 @@
             ]
           },
           {
+            "name": "◟♯ . / scribd . !",
+            "badge": "╰┈➤ all garansi backfree only",
+            "rows": [
+              {
+                "lbl": "Sharing 2u — 1 Bulan",
+                "price": "15k"
+              },
+              {
+                "lbl": "Sharing 2u — 2 Bulan (NO RENEW)",
+                "price": "20k"
+              },
+              {
+                "lbl": "Sharing 2u — 3 Bulan",
+                "price": "28k"
+              },
+              {
+                "lbl": "Private — 1 Bulan",
+                "price": "35k"
+              },
+              {
+                "lbl": "Private — 2 Bulan (NO RENEW)",
+                "price": "40k"
+              },
+              {
+                "lbl": "Private — 3 Bulan",
+                "price": "45k"
+              }
+            ],
+            "notes": "ⓘ <b>catatan:</b><ul><li>Akun scribd memiliki batas limit ketika download</li><li>BATAS DOWNLOAD dalam 1 akun hanya sebanyak 2x (sudah ketentuan scribd sendiri)</li><li>Order PRIVATE akan dapat free replace 2x jika akun terkena limit saat download</li><li>Sudah include subscription slideshare & everand</li></ul>"
+          },
+          {
             "name": "◟♯ . / quillbot . !",
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
