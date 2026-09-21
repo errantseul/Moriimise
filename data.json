@@ -555,59 +555,63 @@
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
-                "lbl": "Harian — 1 Hari",
-                "price": "1k"
+                "lbl": "Pro member — 1 Hari",
+                "price": "3k"
               },
               {
-                "lbl": "Harian — 3 Hari",
-                "price": "2k"
+                "lbl": "Pro member — 3 Hari",
+                "price": "5k"
               },
               {
-                "lbl": "Harian — 7 Hari",
-                "price": "6k"
+                "lbl": "Pro member — 7 Hari",
+                "price": "7k"
               },
               {
-                "lbl": "Bulanan — 1 Bulan",
-                "price": "10k"
-              },
-              {
-                "lbl": "Bulanan — 2 Bulan",
+                "lbl": "Pro member — 1 Bulan",
                 "price": "12k"
               },
               {
-                "lbl": "Bulanan — 3 Bulan",
-                "price": "13k"
-              },
-              {
-                "lbl": "Bulanan — 4 Bulan",
+                "lbl": "Pro member — 2 Bulan",
                 "price": "14k"
               },
               {
-                "lbl": "Bulanan — 5 Bulan",
-                "price": "14,5k"
+                "lbl": "Pro member — 3 Bulan",
+                "price": "17k"
               },
               {
-                "lbl": "Bulanan — 6 Bulan",
-                "price": "15k"
-              },
-              {
-                "lbl": "Bulanan — 1 Tahun",
-                "price": "26k"
-              },
-              {
-                "lbl": "Lifetime — Garansi 6 Bulan",
-                "price": "12k"
-              },
-              {
-                "lbl": "Lifetime — Garansi 12 Bulan",
+                "lbl": "Pro member — 4 Bulan",
                 "price": "20k"
               },
               {
+                "lbl": "Pro member — 5 Bulan",
+                "price": "24k"
+              },
+              {
+                "lbl": "Pro member — 6 Bulan",
+                "price": "27k"
+              },
+              {
+                "lbl": "Pro member — 1 Tahun garansi 10 bulan",
+                "price": "32k"
+              },
+              {
+                "lbl": "Pro member — 1 Tahun garansi 12 bulan",
+                "price": "37k"
+              },
+              {
+                "lbl": "Edu Lifetime — Garansi 6 Bulan",
+                "price": "34k"
+              },
+              {
+                "lbl": "Edu Lifetime — Garansi 12 Bulan",
+                "price": "40k"
+              },
+              {
                 "lbl": "Canva Head — 1 Bulan",
-                "price": "16k"
+                "price": "30k"
               }
             ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>Designer +1k</li><li>Canva Head bisa invite 100 anggota</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Designer +1k</li><li>Canva Head bisa invite 100 anggota</li><li>Selain Edu renew tiap bulan untuk durasi lebih dari 2 bulan</li></ul>"
           },
           {
             "name": "◟♯ . / capcut . !",
@@ -615,35 +619,35 @@
             "rows": [
               {
                 "lbl": "Pro Privat — 3 Hari",
-                "price": "10k"
+                "price": "18k"
               },
               {
                 "lbl": "Pro Privat — 5 Hari",
-                "price": "14k"
-              },
-              {
-                "lbl": "Pro Privat — 7 Hari",
                 "price": "20k"
               },
               {
-                "lbl": "Pro Privat — 1 Bulan Ind",
+                "lbl": "Pro Privat — 7 Hari",
+                "price": "25k"
+              },
+              {
+                "lbl": "Pro Privat — 1 Bulan",
                 "price": "48k"
               },
               {
-                "lbl": "Pro Sharing — 3 Hari",
-                "price": "8k"
+                "lbl": "Pro Sharing (2-3u) — 3 Hari",
+                "price": "12k"
               },
               {
-                "lbl": "Pro Sharing — 5 Hari",
-                "price": "10k"
-              },
-              {
-                "lbl": "Pro Sharing — 7 Hari",
+                "lbl": "Pro Sharing (2-3u) — 5 Hari",
                 "price": "14k"
               },
               {
-                "lbl": "Pro Sharing — 1 Bulan Ind",
-                "price": "26k"
+                "lbl": "Pro Sharing (2-3u) — 7 Hari",
+                "price": "17k"
+              },
+              {
+                "lbl": "Pro Sharing (2-3u) — 1 Bulan",
+                "price": "35k"
               },
               {
                 "lbl": "Standar 2u — 3 Hari",
@@ -669,15 +673,15 @@
             "rows": [
               {
                 "lbl": "Lifetime — Garansi 6 Bulan",
-                "price": "22k"
+                "price": "30k"
               },
               {
                 "lbl": "Lifetime — Garansi 9 Bulan",
-                "price": "35k"
+                "price": "40k"
               },
               {
                 "lbl": "Lifetime — Garansi 12 Bulan",
-                "price": "40k"
+                "price": "45k"
               }
             ]
           },
@@ -687,7 +691,7 @@
             "rows": [
               {
                 "lbl": "VIP — 7 Hari 2U",
-                "price": "12k"
+                "price": "15k"
               },
               {
                 "lbl": "VIP — 1 Bulan 2U",
@@ -695,7 +699,7 @@
               },
               {
                 "lbl": "VIP — 7 Hari Privat",
-                "price": "18k"
+                "price": "25k"
               },
               {
                 "lbl": "VIP — 1 Bulan Privat",
@@ -720,16 +724,20 @@
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
-                "lbl": "Privat Android — 3 Hari",
-                "price": "10k"
+                "lbl": "Sharing 2U Android — 7 Hari",
+                "price": "20k"
               },
               {
-                "lbl": "Privat Android — 5 Hari",
+                "lbl": "Sharing 2U Android — 1 Bulan",
+                "price": "40k"
+              },
+              {
+                "lbl": "Privat Android — 3 Hari",
                 "price": "12k"
               },
               {
-                "lbl": "Privat Android — 7 Hari",
-                "price": "14k"
+                "lbl": "Privat Android — 5 Hari",
+                "price": "18k"
               },
               {
                 "lbl": "Privat Android — 14 Hari (renew)",
@@ -740,12 +748,12 @@
                 "price": "28k"
               },
               {
-                "lbl": "Privat iOS & Android — 1 Bulan",
-                "price": "50k"
+                "lbl": "Privat IOS & Android — 7 Hari",
+                "price": "25k"
               },
               {
-                "lbl": "Sharing 2U iOS & Android — 1 Bulan",
-                "price": "42k"
+                "lbl": "Privat iOS & Android — 1 Bulan",
+                "price": "60k"
               }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Kelock = tidak ada garansi</li><li>Akun sharing history tercampur</li><li>Support Android &amp; iOS tergantung stock</li></ul>"
@@ -756,7 +764,7 @@
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
-                "price": "12k"
+                "price": "15k"
               },
               {
                 "lbl": "Sharing — 12 Bulan",
@@ -771,19 +779,19 @@
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
-                "price": "10k"
+                "price": "15k"
               },
               {
                 "lbl": "Sharing — 3 Bulan",
-                "price": "18k"
+                "price": "20k"
               },
               {
                 "lbl": "Sharing — 6 Bulan",
-                "price": "22k"
+                "price": "28k"
               },
               {
                 "lbl": "Sharing — 1 Tahun",
-                "price": "30k"
+                "price": "40k"
               }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Paket 1 tahun garansi 7 bulan</li></ul>"
@@ -794,11 +802,11 @@
             "rows": [
               {
                 "lbl": "Pro iOS — 1 Tahun",
-                "price": "25k"
+                "price": "45k"
               },
               {
                 "lbl": "Plus iOS & Android — 1 Tahun",
-                "price": "16k"
+                "price": "35k"
               }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Garansi 6 bulan</li></ul>"
@@ -809,7 +817,7 @@
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
-                "price": "12k"
+                "price": "15k"
               },
               {
                 "lbl": "Sharing — 3 Bulan",
@@ -817,15 +825,15 @@
               },
               {
                 "lbl": "Sharing — 6 Bulan",
-                "price": "35k"
+                "price": "28k"
               },
               {
                 "lbl": "Sharing — 1 Tahun",
-                "price": "40k"
+                "price": "30k"
               },
               {
                 "lbl": "Private — 1 Bulan",
-                "price": "20k"
+                "price": "35k"
               },
               {
                 "lbl": "Private — 1 Tahun",
@@ -917,27 +925,27 @@
             "rows": [
               {
                 "lbl": "Famplan — 1 Bulan",
-                "price": "10k"
+                "price": "23k"
               },
               {
                 "lbl": "Famplan — 2 Bulan",
-                "price": "18k"
-              },
-              {
-                "lbl": "Famplan — 3 Bulan",
-                "price": "28k"
-              },
-              {
-                "lbl": "Famplan No Renew — 2 Bulan",
-                "price": "22k"
-              },
-              {
-                "lbl": "Famplan No Renew — 3 Bulan",
                 "price": "30k"
               },
               {
-                "lbl": "Famplan No Renew — 4 Bulan",
+                "lbl": "Famplan — 3 Bulan",
+                "price": "38k"
+              },
+              {
+                "lbl": "Famplan No Renew — 2 Bulan",
                 "price": "35k"
+              },
+              {
+                "lbl": "Famplan No Renew — 3 Bulan",
+                "price": "40k"
+              },
+              {
+                "lbl": "Famplan No Renew — 4 Bulan",
+                "price": "45k"
               }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Via invite</li><li>1 akun dalam setahun hanya bisa join family plan 2x</li><li>Sebelum payment pastikan akun tidak limit dan sudah left family lama</li></ul>"
@@ -948,23 +956,23 @@
             "rows": [
               {
                 "lbl": "Famplan — 1 Hari",
-                "price": "5k"
+                "price": "6k"
               },
               {
                 "lbl": "Famplan — 3 Hari",
-                "price": "8k"
+                "price": "10k"
               },
               {
                 "lbl": "Famplan — 5 Hari",
-                "price": "12k"
+                "price": "14k"
               },
               {
                 "lbl": "Famplan — 7 Hari",
-                "price": "16k"
+                "price": "18k"
               },
               {
                 "lbl": "Famplan — 1 Bulan",
-                "price": "24k"
+                "price": "25k"
               }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Need email cust</li><li>Akun dari morii +2k</li></ul>"
@@ -981,19 +989,19 @@
             "rows": [
               {
                 "lbl": "7 Hari",
-                "price": "12k"
+                "price": "18k"
               },
               {
                 "lbl": "14 Hari",
-                "price": "16k"
+                "price": "24k"
               },
               {
                 "lbl": "1 Bulan",
-                "price": "25k"
+                "price": "35k"
               },
               {
                 "lbl": "2 Bulan",
-                "price": "35k"
+                "price": "40k"
               }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Wajib info device login ke morii sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
@@ -1004,19 +1012,19 @@
             "rows": [
               {
                 "lbl": "7 Hari",
-                "price": "12k"
+                "price": "18k"
               },
               {
                 "lbl": "14 Hari",
-                "price": "16k"
+                "price": "24k"
               },
               {
                 "lbl": "1 Bulan",
-                "price": "25k"
+                "price": "40k"
               },
               {
                 "lbl": "2 Bulan",
-                "price": "35k"
+                "price": "45k"
               }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Wajib info device login ke morii sebelum order</li><li>Harga di atas untuk private</li><li>Login menggunakan lisensi / akun</li><li>Bisa untuk akses luar negeri &amp; bypass</li><li>List country lengkap cek website resmi</li></ul>"
@@ -1134,31 +1142,31 @@
             "rows": [
               {
                 "lbl": "Private Famplan — 1 Bulan",
-                "price": "12k"
-              },
-              {
-                "lbl": "Private Famplan — 2 Bulan",
-                "price": "16k"
-              },
-              {
-                "lbl": "Private Famplan — 3 Bulan",
                 "price": "20k"
               },
               {
-                "lbl": "Private Famplan — 6 Bulan",
-                "price": "30k"
+                "lbl": "Private Famplan — 2 Bulan",
+                "price": "25k"
               },
               {
-                "lbl": "Private Famplan — 1 Tahun",
+                "lbl": "Private Famplan — 3 Bulan",
                 "price": "40k"
               },
               {
+                "lbl": "Private Famplan — 6 Bulan",
+                "price": "60k"
+              },
+              {
+                "lbl": "Private Famplan — 1 Tahun",
+                "price": "90k"
+              },
+              {
                 "lbl": "Head — 1 Bulan",
-                "price": "30k"
+                "price": "45k"
               },
               {
                 "lbl": "Private Indplan — 1 Bulan",
-                "price": "14k"
+                "price": "30k"
               }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Head bisa invite 5 member</li></ul>"
@@ -1177,7 +1185,7 @@
               },
               {
                 "lbl": "Sharing 5U — 1 Bulan",
-                "price": "120k"
+                "price": "150k"
               },
               {
                 "lbl": "Private — 1 Hari",
@@ -1212,7 +1220,7 @@
               },
               {
                 "lbl": "Sharing 5U — 1 Hari",
-                "price": "14k"
+                "price": "15k"
               },
               {
                 "lbl": "Sharing 5U — 3 Hari",
@@ -1220,7 +1228,7 @@
               },
               {
                 "lbl": "Sharing 5U — 7 Hari",
-                "price": "28k"
+                "price": "30k"
               },
               {
                 "lbl": "Sharing 5U — 14 Hari",
@@ -1264,35 +1272,18 @@
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
-                "lbl": "Private — 1 Bulan",
-                "price": "30k"
-              },
-              {
-                "lbl": "Private Plus — 1 Bulan",
-                "price": "60k"
+                "lbl": "Close Sementara",
+                "price": "Error"
               }
-            ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>Private full garansi</li></ul>"
+            ]
           },
           {
             "name": "◟♯ . / grok . !",
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
-                "lbl": "Grok AI Private — 3 Hari",
-                "price": "35k"
-              },
-              {
-                "lbl": "Grok AI Private — 7 Hari",
-                "price": "70k"
-              },
-              {
-                "lbl": "Grok AI Private — 3 Bulan",
-                "price": "160k"
-              },
-              {
-                "lbl": "Grok AI Sharing — 3 Bulan",
-                "price": "90k"
+                "lbl": "Close Sementara",
+                "price": "Error"
               }
             ]
           },
@@ -1351,7 +1342,7 @@
             "rows": [
               {
                 "lbl": "Lifetime iOS/Android",
-                "price": "30k"
+                "price": "35k"
               }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Garansi 6 bulan</li></ul>"
@@ -1386,8 +1377,16 @@
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
-                "lbl": "Sharing — 1 Bulan",
-                "price": "20k"
+                "lbl": "Sharing 5u — 7 Hari",
+                "price": "18k"
+              },
+              {
+                "lbl": "Sharing 5u — 1 Bulan",
+                "price": "25k"
+              },
+              {
+                "lbl": "Private Fullgar — 1 Bulan",
+                "price": "65k"
               }
             ]
           },
@@ -1396,10 +1395,35 @@
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
+                "lbl": "Sharing 3u — 1 Hari",
+                "price": "6k"
+              },
+              {
+                "lbl": "Sharing 3u — 3 Hari",
+                "price": "10k"
+              },
+              {
+                "lbl": "Sharing 3u — 7 Hari",
+                "price": "15k"
+              },
+              {
+                "lbl": "Sharing 3u — 14 Hari",
+                "price": "20k"
+              },
+              {
+                "lbl": "Sharing 3u — 1 Bulan",
+                "price": "30k"
+              },
+              {
+                "lbl": "Private — 7 Hari",
+                "price": "28k"
+              },
+              {
                 "lbl": "Private — 1 Bulan",
-                "price": "32k"
+                "price": "55k"
               }
-            ]
+            ],
+            "notes": "ⓘ <b>catatan:</b><ul><li>Order PRIVAT max login 3 device, tanya stok dulu ke morii</li>Order PRIVAT bisa menggunakan email cust (auto-renew/weeks)</li>Mohon backup file masing-masing, kehilangan data bukan tanggung jawab morii</li></ul>"
           },
           {
             "name": "camscanner",
@@ -1407,11 +1431,11 @@
             "rows": [
               {
                 "lbl": "Sharing — 1 Bulan",
-                "price": "15k"
+                "price": "20k"
               },
               {
                 "lbl": "Sharing — 1 Tahun",
-                "price": "45k"
+                "price": "40k"
               }
             ]
           }
@@ -1432,31 +1456,31 @@
             "rows": [
               {
                 "lbl": "Private Famplan — 1 Bulan",
-                "price": "12k"
-              },
-              {
-                "lbl": "Private Famplan — 2 Bulan",
-                "price": "16k"
-              },
-              {
-                "lbl": "Private Famplan — 3 Bulan",
                 "price": "20k"
               },
               {
-                "lbl": "Private Famplan — 6 Bulan",
-                "price": "30k"
+                "lbl": "Private Famplan — 2 Bulan",
+                "price": "25k"
               },
               {
-                "lbl": "Private Famplan — 1 Tahun",
+                "lbl": "Private Famplan — 3 Bulan",
                 "price": "40k"
               },
               {
+                "lbl": "Private Famplan — 6 Bulan",
+                "price": "60k"
+              },
+              {
+                "lbl": "Private Famplan — 1 Tahun",
+                "price": "90k"
+              },
+              {
                 "lbl": "Head — 1 Bulan",
-                "price": "30k"
+                "price": "45k"
               },
               {
                 "lbl": "Private Indplan — 1 Bulan",
-                "price": "14k"
+                "price": "30k"
               }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Head bisa invite 5 member</li></ul>"
@@ -1475,7 +1499,7 @@
               },
               {
                 "lbl": "Sharing 5U — 1 Bulan",
-                "price": "120k"
+                "price": "150k"
               },
               {
                 "lbl": "Private — 1 Hari",
@@ -1510,7 +1534,7 @@
               },
               {
                 "lbl": "Sharing 5U — 1 Hari",
-                "price": "14k"
+                "price": "15k"
               },
               {
                 "lbl": "Sharing 5U — 3 Hari",
@@ -1518,7 +1542,7 @@
               },
               {
                 "lbl": "Sharing 5U — 7 Hari",
-                "price": "28k"
+                "price": "30k"
               },
               {
                 "lbl": "Sharing 5U — 14 Hari",
@@ -1562,35 +1586,18 @@
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
-                "lbl": "Private — 1 Bulan",
-                "price": "30k"
-              },
-              {
-                "lbl": "Private Plus — 1 Bulan",
-                "price": "60k"
+                "lbl": "Close Sementara",
+                "price": "Error"
               }
-            ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>Private full garansi</li></ul>"
+            ]
           },
           {
             "name": "◟♯ . / grok . !",
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
-                "lbl": "Grok AI Private — 3 Hari",
-                "price": "35k"
-              },
-              {
-                "lbl": "Grok AI Private — 7 Hari",
-                "price": "70k"
-              },
-              {
-                "lbl": "Grok AI Private — 3 Bulan",
-                "price": "160k"
-              },
-              {
-                "lbl": "Grok AI Sharing — 3 Bulan",
-                "price": "90k"
+                "lbl": "Close Sementara",
+                "price": "Error"
               }
             ]
           },
@@ -1683,8 +1690,16 @@
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
-                "lbl": "Sharing — 1 Bulan",
-                "price": "20k"
+                "lbl": "Sharing 5u — 7 Hari",
+                "price": "18k"
+              },
+              {
+                "lbl": "Sharing 5u — 1 Bulan",
+                "price": "25k"
+              },
+              {
+                "lbl": "Private Fullgar — 1 Bulan",
+                "price": "65k"
               }
             ]
           },
@@ -1693,10 +1708,35 @@
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
+                "lbl": "Sharing 3u — 1 Hari",
+                "price": "6k"
+              },
+              {
+                "lbl": "Sharing 3u — 3 Hari",
+                "price": "10k"
+              },
+              {
+                "lbl": "Sharing 3u — 7 Hari",
+                "price": "15k"
+              },
+              {
+                "lbl": "Sharing 3u — 14 Hari",
+                "price": "20k"
+              },
+              {
+                "lbl": "Sharing 3u — 1 Bulan",
+                "price": "30k"
+              },
+              {
+                "lbl": "Private — 7 Hari",
+                "price": "28k"
+              },
+              {
                 "lbl": "Private — 1 Bulan",
-                "price": "32k"
+                "price": "55k"
               }
-            ]
+            ],
+            "notes": "ⓘ <b>catatan:</b><ul><li>Order PRIVAT max login 3 device, tanya stok dulu ke morii</li>Order PRIVAT bisa menggunakan email cust (auto-renew/weeks)</li>Mohon backup file masing-masing, kehilangan data bukan tanggung jawab morii</li></ul>"
           },
           {
             "name": "◟♯ . / camscanner . !",
