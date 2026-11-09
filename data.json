@@ -1342,7 +1342,7 @@
                 "price": "140k"
               }
             ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>Via invite email buyer</li><li>1 family get 5TB storage drive</li><li>Limit join family dalam setahun hanya 2×</li></ul>
+            "notes": "ⓘ <b>catatan:</b><ul><li>Via invite email buyer</li><li>1 family get 5TB storage drive</li><li>Limit join family dalam setahun hanya 2×</li></ul>"
           },
           {
             "name": "◟♯ . / perplexity . !",
@@ -1671,8 +1671,51 @@
               }
             ]
           },
+              },
+              {
+                "lbl": "Private — 3 Hari",
+                "price": "69k"
+              },
+              {
+                "lbl": "Private — 7 Hari",
+                "price": "115k"
+              },
+              {
+                "lbl": "Private — 1 Bulan",
+                "price": "250k"
+              }
+            ],
+            "notes": "ⓘ <b>catatan:</b><ul><li>Harga tergantung demand dan stok</li><li>Garansi deactive & bf</li><li>fixing garansi 1 x 24 jam, max 7 hari jika massal</li></ul>"
+          },
           {
-            "name": "◟♯ . / grok . !",
+            "name": "◟♯ . / gemini pro. !",
+            "badge": "╰┈➤ all garansi backfree only",
+            "rows": [
+              {
+                "lbl": "Private — 1 Bulan",
+                "price": "25k"
+              },
+              {
+                "lbl": "Private — 2 Bulan",
+                "price": "40k"
+              },
+              {
+                "lbl": "Private — 3 Bulan",
+                "price": "55k"
+              },
+              {
+                "lbl": "Private — 6 Bulan",
+                "price": "95k"
+              },
+              {
+                "lbl": "Private — 12 Bulan",
+                "price": "140k"
+              }
+            ],
+            "notes": "ⓘ <b>catatan:</b><ul><li>Via invite email buyer</li><li>1 family get 5TB storage drive</li><li>Limit join family dalam setahun hanya 2×</li></ul>"
+          },
+          {
+            "name": "◟♯ . / perplexity . !",
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
@@ -1680,54 +1723,6 @@
                 "price": "Error"
               }
             ]
-          },
-          {
-            "name": "◟♯ . / ms365 . !",
-            "badge": "╰┈➤ all garansi backfree only",
-            "rows": [
-              {
-                "lbl": "Sharing — 1 Bulan",
-                "price": "20k"
-              }
-            ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>Via invite</li></ul>"
-          },
-          {
-            "name": "◟♯ . / zoom . !",
-            "rows": [
-              {
-                "lbl": "Per Jam — 1 Jam",
-          },
-          {
-            "name": "◟♯ . / grok . !",
-            "badge": "╰┈➤ all garansi backfree only",
-            "rows": [
-              {
-                "lbl": "Close Sementara",
-                "price": "Error"
-              }
-            ]
-          },
-          {
-            "name": "MS365",
-            "badge": "╰┈➤ all garansi backfree only",
-            "rows": [
-              {
-                "lbl": "Sharing — 1 Bulan",
-                "price": "20k"
-              }
-            ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>Via invite</li></ul>"
-          },
-          {
-            "name": "◟♯ . / zoom . !",
-            "rows": [
-              {
-                "lbl": "Detail Pricelist Zoom Wa Aja",
-                "price": "Wa Yaa"
-              }
-            ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>1 bulan bisa ganti akun 1x</li><li>100-1000 partisipan</li></ul>"
           },
           {
             "name": "◟♯ . / grok . !",
