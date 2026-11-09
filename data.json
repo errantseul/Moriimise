@@ -715,11 +715,19 @@
               },
               {
                 "lbl": "VIP+ — 1 Bulan 3U",
-                "price": "25k"
+                "price": "30k"
               },
               {
                 "lbl": "VIP+ — 1 Bulan 2U",
-                "price": "30k"
+                "price": "35k"
+              },
+              {
+                "lbl": "VIP+ — 7 Hari Privat",
+                "price": "20k"
+              },
+              {
+                "lbl": "VIP+ — 14 Hari Privat",
+                "price": "35k"
               },
               {
                 "lbl": "VIP+ — 1 Bulan Privat",
@@ -1239,40 +1247,36 @@
             "notes": "ⓘ <b>catatan:</b><ul><li>Support all device</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
           },
           {
-            "name": "◟♯ . / chatgpt . !",
+            "name": "◟♯ . / chatgpt+ . !",
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
                 "lbl": "Sharing 8U — 1 Hari",
-                "price": "12k"
-              },
-              {
-                "lbl": "Sharing 8U — 3 Hari",
-                "price": "18k"
-              },
-              {
-                "lbl": "Sharing 8U — 7 Hari",
-                "price": "25k"
-              },
-              {
-                "lbl": "Sharing 8U — 1 Bulan",
-                "price": "perbaikan"
-              },
-              {
-                "lbl": "Sharing 5U — 1 Hari",
                 "price": "15k"
               },
               {
-                "lbl": "Sharing 5U — 3 Hari",
+                "lbl": "Sharing 8U — 3 Hari",
                 "price": "20k"
               },
               {
-                "lbl": "Sharing 5U — 7 Hari",
-                "price": "30k"
+                "lbl": "Sharing 8U — 7 Hari",
+                "price": "28k"
               },
               {
-                "lbl": "Sharing 5U — 14 Hari",
-                "price": "40k"
+                "lbl": "Sharing 8U — 1 Bulan",
+                "price": "55k"
+              },
+              {
+                "lbl": "Sharing 5U — 1 Hari",
+                "price": "18k"
+              },
+              {
+                "lbl": "Sharing 5U — 3 Hari",
+                "price": "25k"
+              },
+              {
+                "lbl": "Sharing 5U — 7 Hari",
+                "price": "35k"
               },
               {
                 "lbl": "Sharing 5U — 1 Bulan",
@@ -1280,32 +1284,65 @@
               },
               {
                 "lbl": "Sharing 3U — 1 Hari",
-                "price": "20k"
+                "price": "26k"
               },
               {
                 "lbl": "Sharing 3U — 3 Hari",
-                "price": "28k"
+                "price": "35k"
               },
               {
                 "lbl": "Sharing 3U — 7 Hari",
-                "price": "38k"
+                "price": "43k"
               },
               {
                 "lbl": "Sharing 3U — 1 Bulan",
                 "price": "115k"
+              },
+              {
+                "lbl": "Private — 1 Hari",
+                "price": "38k"
+              },
+              {
+                "lbl": "Private — 3 Hari",
+                "price": "69k"
+              },
+              {
+                "lbl": "Private — 7 Hari",
+                "price": "115k"
+              },
+              {
+                "lbl": "Private — 1 Bulan",
+                "price": "250k"
               }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Harga tergantung demand dan stok</li><li>Garansi deactive & bf</li><li>fixing garansi 1 x 24 jam, max 7 hari jika massal</li></ul>"
           },
           {
-            "name": "◟♯ . / gemini . !",
+            "name": "◟♯ . / gemini pro. !",
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
-                "lbl": "Harga",
-                "price": "chat morii dulu ya"
+                "lbl": "Private — 1 Bulan",
+                "price": "25k"
+              },
+              {
+                "lbl": "Private — 2 Bulan",
+                "price": "40k"
+              },
+              {
+                "lbl": "Private — 3 Bulan",
+                "price": "55k"
+              },
+              {
+                "lbl": "Private — 6 Bulan",
+                "price": "95k"
+              },
+              {
+                "lbl": "Private — 12 Bulan",
+                "price": "140k"
               }
-            ]
+            ],
+            "notes": "ⓘ <b>catatan:</b><ul><li>Via invite email buyer</li><li>1 family get 5TB storage drive</li><li>Limit join family dalam setahun hanya 2×</li></ul>
           },
           {
             "name": "◟♯ . / perplexity . !",
@@ -1342,39 +1379,11 @@
             "name": "◟♯ . / zoom . !",
             "rows": [
               {
-                "lbl": "Per Jam — 1 Jam",
-                "price": "1,5k"
-              },
-              {
-                "lbl": "Per Jam — 3 Jam",
-                "price": "2,5k"
-              },
-              {
-                "lbl": "Per Jam — 6 Jam",
-                "price": "5k"
-              },
-              {
-                "lbl": "Per Jam — 12 Jam",
-                "price": "8k"
-              },
-              {
-                "lbl": "Per Hari — 1 Hari",
-                "price": "7k"
-              },
-              {
-                "lbl": "Per Hari — 3 Hari",
-                "price": "9k"
-              },
-              {
-                "lbl": "Per Hari — 7 Hari",
-                "price": "10k"
-              },
-              {
-                "lbl": "Per Hari — 1 Bulan",
-                "price": "20k"
+                "lbl": "Detail Pricelist Zoom Wa Aja",
+                "price": "Wa Yaa"
               }
             ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>1 bulan bisa ganti akun 1x</li><li>100 partisipan</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>1 bulan bisa ganti akun 1x</li><li>100-1000 partisipan</li></ul>"
           },
           {
             "name": "◟♯ . / kilonotes . !",
@@ -1705,21 +1714,37 @@
               {
                 "lbl": "Per Hari — 1 Hari",
                 "price": "7k"
-              },
+          },
+          {
+            "name": "◟♯ . / grok . !",
+            "badge": "╰┈➤ all garansi backfree only",
+            "rows": [
               {
-                "lbl": "Per Hari — 3 Hari",
-                "price": "9k"
-              },
+                "lbl": "Close Sementara",
+                "price": "Error"
+              }
+            ]
+          },
+          {
+            "name": "MS365",
+            "badge": "╰┈➤ all garansi backfree only",
+            "rows": [
               {
-                "lbl": "Per Hari — 7 Hari",
-                "price": "10k"
-              },
-              {
-                "lbl": "Per Hari — 1 Bulan",
+                "lbl": "Sharing — 1 Bulan",
                 "price": "20k"
               }
             ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>1 bulan bisa ganti akun 1x</li><li>100 partisipan</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Via invite</li></ul>"
+          },
+          {
+            "name": "◟♯ . / zoom . !",
+            "rows": [
+              {
+                "lbl": "Detail Pricelist Zoom Wa Aja",
+                "price": "Wa Yaa"
+              }
+            ],
+            "notes": "ⓘ <b>catatan:</b><ul><li>1 bulan bisa ganti akun 1x</li><li>100-1000 partisipan</li></ul>"
           },
           {
             "name": "◟♯ . / kilonotes . !",
