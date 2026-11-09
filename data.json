@@ -31,7 +31,7 @@
               },
               {
                 "lbl": "1P1U — 1 Bulan",
-                "price": "40k"
+                "price": "45k"
               },
               {
                 "lbl": "1P2U — 7 Hari",
@@ -43,23 +43,23 @@
               },
               {
                 "lbl": "Anti Limit — 1 Hari",
-                "price": "8k"
+                "price": "10k"
               },
               {
                 "lbl": "Anti Limit — 3 Hari",
-                "price": "15k"
-              },
-              {
-                "lbl": "Anti Limit — 7 Hari",
                 "price": "20k"
               },
               {
+                "lbl": "Anti Limit — 7 Hari",
+                "price": "30k"
+              },
+              {
                 "lbl": "Anti Limit — 1 Bulan",
-                "price": "60k"
+                "price": "65k"
               },
               {
                 "lbl": "Semipriv — 1 Bulan",
-                "price": "50k"
+                "price": "55k"
               },
               {
                 "lbl": "Private — 7 Hari",
@@ -618,6 +618,10 @@
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               {
+                "lbl": "Pro Privat — 1 Hari",
+                "price": "15k"
+              },
+              {
                 "lbl": "Pro Privat — 3 Hari",
                 "price": "18k"
               },
@@ -632,6 +636,10 @@
               {
                 "lbl": "Pro Privat — 1 Bulan",
                 "price": "48k"
+              },
+              {
+                "lbl": "Pro Sharing (2-3u) — 1 Hari",
+                "price": "8k"
               },
               {
                 "lbl": "Pro Sharing (2-3u) — 3 Hari",
@@ -756,7 +764,7 @@
                 "price": "60k"
               }
             ],
-            "notes": "ⓘ <b>catatan:</b><ul><li>Kelock = tidak ada garansi</li><li>Akun sharing history tercampur</li><li>Support Android &amp; iOS tergantung stock</li></ul>"
+            "notes": "ⓘ <b>catatan:</b><ul><li>Kelock = tidak ada garansi</li><li>Akun sharing history tercampur</li><li>Support Android &amp; ios tergantung stock (vip/vip+ random)</li></ul>"
           },
           {
             "name": "◟♯ . / ibispaint . !",
@@ -886,7 +894,7 @@
               },
               {
                 "lbl": "Famplan Anti Limit — Perpanjangan",
-                "price": "12k"
+                "price": "18k"
               },
               {
                 "lbl": "Indplan acc c fresh — 1 Bulan",
@@ -903,6 +911,10 @@
               {
                 "lbl": "Indplan — 3 Bulan (renew)",
                 "price": "45k"
+              },
+              {
+                "lbl": "Indplan — 3 Bulan (norenew fullar)",
+                "price": "70k"
               },
               {
                 "lbl": "Indplan — 3 Bulan (norenew nogar)",
@@ -972,7 +984,7 @@
               },
               {
                 "lbl": "Famplan — 1 Bulan",
-                "price": "25k"
+                "price": "28k"
               }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Need email cust</li><li>Akun dari morii +2k</li></ul>"
@@ -1176,20 +1188,52 @@
             "badge": "╰┈➤ all garansi backfree / disable only",
             "rows": [
               {
-                "lbl": "Sharing 3U — 1 Hari",
-                "price": "32k"
+                "lbl": "Sharing 5U — 1 Hari",
+                "price": "30k"
               },
               {
-                "lbl": "Sharing 3U — 7 Hari",
-                "price": "70k"
+                "lbl": "Sharing 5U — 3 Hari",
+                "price": "45k"
+              },
+              {
+                "lbl": "Sharing 5U — 7 Hari",
+                "price": "65k"
               },
               {
                 "lbl": "Sharing 5U — 1 Bulan",
                 "price": "150k"
               },
               {
+                "lbl": "Sharing 3U — 1 Hari",
+                "price": "40k"
+              },
+              {
+                "lbl": "Sharing 3U — 3 Hari",
+                "price": "55k"
+              },
+              {
+                "lbl": "Sharing 3U — 7 Hari",
+                "price": "75k"
+              },
+              {
+                "lbl": "Sharing 3U — 1 Bulan",
+                "price": "170k"
+              },
+              {
                 "lbl": "Private — 1 Hari",
-                "price": "50k"
+                "price": "55k"
+              },
+              {
+                "lbl": "Private — 3 Hari",
+                "price": "90k"
+              },
+              {
+                "lbl": "Private — 7 Hari",
+                "price": "170k"
+              },
+              {
+                "lbl": "Private — 1 Bulan",
+                "price": "450k"
               }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Support all device</li><li>Limit 5x lebih tinggi</li><li>Akun dari morii login by code</li><li>Model: Opus 4.6, Sonnet 4.6, Haiku 4.5</li></ul>"
@@ -1208,15 +1252,11 @@
               },
               {
                 "lbl": "Sharing 8U — 7 Hari",
-                "price": "24k"
-              },
-              {
-                "lbl": "Sharing 8U — 14 Hari",
-                "price": "35k"
+                "price": "25k"
               },
               {
                 "lbl": "Sharing 8U — 1 Bulan",
-                "price": "54k"
+                "price": "perbaikan"
               },
               {
                 "lbl": "Sharing 5U — 1 Hari",
