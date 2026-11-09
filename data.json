@@ -1697,23 +1697,37 @@
             "rows": [
               {
                 "lbl": "Per Jam — 1 Jam",
-                "price": "1,5k"
-              },
+          },
+          {
+            "name": "◟♯ . / grok . !",
+            "badge": "╰┈➤ all garansi backfree only",
+            "rows": [
               {
-                "lbl": "Per Jam — 3 Jam",
-                "price": "2,5k"
-              },
+                "lbl": "Close Sementara",
+                "price": "Error"
+              }
+            ]
+          },
+          {
+            "name": "MS365",
+            "badge": "╰┈➤ all garansi backfree only",
+            "rows": [
               {
-                "lbl": "Per Jam — 6 Jam",
-                "price": "5k"
-              },
+                "lbl": "Sharing — 1 Bulan",
+                "price": "20k"
+              }
+            ],
+            "notes": "ⓘ <b>catatan:</b><ul><li>Via invite</li></ul>"
+          },
+          {
+            "name": "◟♯ . / zoom . !",
+            "rows": [
               {
-                "lbl": "Per Jam — 12 Jam",
-                "price": "8k"
-              },
-              {
-                "lbl": "Per Hari — 1 Hari",
-                "price": "7k"
+                "lbl": "Detail Pricelist Zoom Wa Aja",
+                "price": "Wa Yaa"
+              }
+            ],
+            "notes": "ⓘ <b>catatan:</b><ul><li>1 bulan bisa ganti akun 1x</li><li>100-1000 partisipan</li></ul>"
           },
           {
             "name": "◟♯ . / grok . !",
