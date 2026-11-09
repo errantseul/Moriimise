@@ -567,7 +567,7 @@
             ]
           },
           {
-            "name": "MS365",
+            "name": "◟♯ . / ms365 . !",
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               { "lbl": "Sharing — 1 Bulan", "price": "20k" }
@@ -642,11 +642,12 @@
             "notes": "ⓘ <b>catatan:</b><ul><li>Order PRIVAT max login 3 device, tanya stok dulu ke morii</li><li>Order PRIVAT bisa menggunakan email cust (auto-renew/weeks)</li><li>Mohon backup file masing-masing, kehilangan data bukan tanggung jawab morii</li></ul>"
           },
           {
-            "name": "camscanner",
+            "name": "◟♯ . / camscanner . !",
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
-              { "lbl": "Sharing — 1 Bulan", "price": "20k" },
-              { "lbl": "Sharing — 1 Tahun", "price": "40k" }
+              { "lbl": "Sharing — 1 Bulan", "price": "15k" },
+              { "lbl": "Sharing — 1 Tahun", "price": "40k" },
+              { "lbl": "Private — 1 Bulan", "price": "25k" }
             ]
           }
         ],
@@ -743,7 +744,7 @@
             ]
           },
           {
-            "name": "MS365",
+            "name": "◟♯ . / ms365 . !",
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
               { "lbl": "Sharing — 1 Bulan", "price": "20k" }
@@ -818,11 +819,12 @@
             "notes": "ⓘ <b>catatan:</b><ul><li>Order PRIVAT max login 3 device, tanya stok dulu ke morii</li><li>Order PRIVAT bisa menggunakan email cust (auto-renew/weeks)</li><li>Mohon backup file masing-masing, kehilangan data bukan tanggung jawab morii</li></ul>"
           },
           {
-            "name": "camscanner",
+            "name": "◟♯ . / camscanner . !",
             "badge": "╰┈➤ all garansi backfree only",
             "rows": [
-              { "lbl": "Sharing — 1 Bulan", "price": "20k" },
-              { "lbl": "Sharing — 1 Tahun", "price": "40k" }
+              { "lbl": "Sharing — 1 Bulan", "price": "15k" },
+              { "lbl": "Sharing — 1 Tahun", "price": "40k" },
+              { "lbl": "Private — 1 Bulan", "price": "25k" }
             ]
           }
         ],
@@ -849,6 +851,16 @@
               { "lbl": "Tulis HVS, Folio", "price": "10k/hal" }
             ],
             "notes": "ⓘ <b>catatan:</b><ul><li>Materi dari customer</li><li>jika sudah ada kesepakatan order, morii tidak menerima cancel dengan syarat apapun</li><li>No refund!</li><li>Hanya menerima revisi minor max 2 kali</li></ul>"
+          },
+          {
+            "name": "☰ Jasa Cari Referensi / Unlock File",
+            "rows": [
+              { "lbl": "Cari Referensi — Jurnal Nasional", "price": "5k/jurnal" },
+              { "lbl": "Cari Referensi — Jurnal Internasional", "price": "10k/Jurnal" },
+              { "lbl": "Unlock File — Scribd", "price": "2k/File" },
+              { "lbl": "Unlock File — Jurnal Inter", "price": "8k/Jurnal" },
+              { "lbl": "Unlock File — Ebook", "price": "start from 5k" }
+            ]
           }
         ],
         "color": "green"
